@@ -1,0 +1,18 @@
+MIMIC-CXR Epoch 1 Evaluation Summary
+====================================
+Model Checkpoint  : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\trained_models\mimic_cxr\mimic_cxr_checkpoint.keras
+Evaluation Data   : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\mimic_cxr_processed_val.csv (233 test samples)
+
+Accuracy & Loss:
+  - Validation Loss     : 1.8584
+  - Validation Accuracy : 64.67%
+
+NLP Sequence Overlap Metrics:
+  - BLEU-1  : 0.0137
+  - BLEU-2  : 0.0137
+  - BLEU-3  : 0.0064
+  - BLEU-4  : 0.0043
+  - ROUGE-1 : 0.1078
+  - ROUGE-2 : 0.0415
+  - ROUGE-L : 0.1078
+  - Exact Match Rate : 0.00%

@@ -1,0 +1,7 @@
+INVALID / CORRUPTED X-RAY IMAGES REPORT
+======================================================================
+Total images scanned : 261137
+Valid images         : 261137
+Corrupted / Invalid  : 0
+======================================================================
+

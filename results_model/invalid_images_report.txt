@@ -1,0 +1,56 @@
+DATASET IMAGE VALIDATION & INTEGRITY REPORT
+======================================================================
+Total Checked    : 26703
+Valid Images     : 26657
+Missing Images   : 0
+Corrupted Images : 46
+Invalid Paths    : 0
+======================================================================
+
+PROBLEMATIC FILES LIST (46 entries):
+Status: CORRUPTED | Subject: 11064216 | Study: s57049480 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064216\s57049480\4299e34e-0943ca5a-8d6cb070-ff3d24c3-de291c02.jpg
+Status: CORRUPTED | Subject: 11064216 | Study: s57066041 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064216\s57066041\40ffc1ef-4cd39c9b-6d39c7c6-8988a756-5f78411e.jpg
+Status: CORRUPTED | Subject: 11064216 | Study: s57066041 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064216\s57066041\d4095164-325853b5-84cef955-9b0f4c5f-ad49d4ce.jpg
+Status: CORRUPTED | Subject: 11064216 | Study: s57891436 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064216\s57891436\bfced0ad-a3bebfdf-7208c944-10c62ba3-c5692c59.jpg
+Status: CORRUPTED | Subject: 11064216 | Study: s57891436 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064216\s57891436\d43f90b0-e6b37d52-fb4bb056-c371d435-b862eb0e.jpg
+Status: CORRUPTED | Subject: 11064387 | Study: s51389582 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064387\s51389582\48c1e442-ed8dad6d-e5fa7265-0593024c-fcf1e38d.jpg
+Status: CORRUPTED | Subject: 11064387 | Study: s51389582 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064387\s51389582\9af11c6f-6e6e0122-eddfc2df-cd73e036-96eb468c.jpg
+Status: CORRUPTED | Subject: 11064387 | Study: s51389582 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064387\s51389582\e9fd173f-7fbc4d71-3bd15d11-8ec5c9cc-9fb18938.jpg
+Status: CORRUPTED | Subject: 11064674 | Study: s52991042 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064674\s52991042\04e24f07-0da2446f-8bbc6884-6ff7ddfb-9fd41fe6.jpg
+Status: CORRUPTED | Subject: 11064674 | Study: s52991042 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064674\s52991042\7ad820ba-caa88ad5-32b6ff25-278d49dc-2630d93e.jpg
+Status: CORRUPTED | Subject: 11064674 | Study: s52991042 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064674\s52991042\8506e542-4ad1c49e-c060c6ea-a1e23dce-4541601a.jpg
+Status: CORRUPTED | Subject: 11064674 | Study: s52991042 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064674\s52991042\ae7e219a-cd765c73-55af754b-44333479-5d15c35b.jpg
+Status: CORRUPTED | Subject: 11064674 | Study: s52991042 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064674\s52991042\e713de72-4947ad11-43b2b8e5-dfec5318-235bdcf2.jpg
+Status: CORRUPTED | Subject: 11064674 | Study: s54770446 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11064674\s54770446\9937b244-61c6b8c3-48ecd83f-d784a3b5-e2640f4f.jpg
+Status: CORRUPTED | Subject: 11065430 | Study: s50049473 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065430\s50049473\3c2ca835-c5f29266-d3b208ae-4bb0cb5a-5c3ea32d.jpg
+Status: CORRUPTED | Subject: 11065430 | Study: s58819773 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065430\s58819773\3b589ad6-55aeed87-8d8011fe-c66da0f0-3dfa7ffc.jpg
+Status: CORRUPTED | Subject: 11065430 | Study: s58819773 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065430\s58819773\f034a602-7d010cc4-d5d6d5f6-9ee78b5e-9082e7b9.jpg
+Status: CORRUPTED | Subject: 11065923 | Study: s50217938 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065923\s50217938\d5a352d7-f2086365-153807ce-16077e01-18ba317e.jpg
+Status: CORRUPTED | Subject: 11065923 | Study: s50221963 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065923\s50221963\6f2dd376-96b32099-5c4cfd6a-1e1f113f-69cf5b23.jpg
+Status: CORRUPTED | Subject: 11065923 | Study: s53519274 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065923\s53519274\593d9afb-a8642f5c-b0bee44d-271a056c-d409f821.jpg
+Status: CORRUPTED | Subject: 11065923 | Study: s55754198 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065923\s55754198\df185d87-37143093-1b4fa483-4e448931-da44c35e.jpg
+Status: CORRUPTED | Subject: 11065923 | Study: s59821646 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11065923\s59821646\2935bc64-aae6f801-220aea76-0dd6abe3-d75c7b9e.jpg
+Status: CORRUPTED | Subject: 11066362 | Study: s57453633 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11066362\s57453633\92a0c3bd-ebc4d1c3-6eb68432-4c204450-5f65f292.jpg
+Status: CORRUPTED | Subject: 11066362 | Study: s57453633 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11066362\s57453633\c51742d8-f94ffd66-65c93d02-aaa52883-b42257d8.jpg
+Status: CORRUPTED | Subject: 11066522 | Study: s56026779 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11066522\s56026779\4a9b468d-1da25749-019183ee-d213592c-0332addd.jpg
+Status: CORRUPTED | Subject: 11066522 | Study: s56026779 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11066522\s56026779\578a6f99-f6b26411-817cb983-6fd584e7-f511a74b.jpg
+Status: CORRUPTED | Subject: 11067197 | Study: s52243295 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067197\s52243295\0d0d542f-380d856f-476f0b85-980aa851-2f1fa04d.jpg
+Status: CORRUPTED | Subject: 11067197 | Study: s52243295 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067197\s52243295\3d2fd4bc-e32d43ec-f4faedda-fa14e6d3-0fbd5491.jpg
+Status: CORRUPTED | Subject: 11067444 | Study: s57672556 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067444\s57672556\217e90da-0c61dc84-5d778f8a-028c2db3-8b683203.jpg
+Status: CORRUPTED | Subject: 11067444 | Study: s57672556 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067444\s57672556\e98874fd-a06b564c-372680f4-e2ae9df6-9358c2a7.jpg
+Status: CORRUPTED | Subject: 11067485 | Study: s55454156 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067485\s55454156\35ab6726-12031da0-96106b16-ce4fac5c-d975373a.jpg
+Status: CORRUPTED | Subject: 11067485 | Study: s55454156 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067485\s55454156\af39ee52-f20f5d83-588c7bf9-85471c03-c1212652.jpg
+Status: CORRUPTED | Subject: 11067485 | Study: s59004709 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067485\s59004709\13a936d4-87e06604-1419b3ac-b74b749a-4668ad8f.jpg
+Status: CORRUPTED | Subject: 11067485 | Study: s59004709 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067485\s59004709\80aa8311-ed66e327-fdeb5ab6-ac9d6f8b-60c1bbb1.jpg
+Status: CORRUPTED | Subject: 11067808 | Study: s53186320 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067808\s53186320\74dfc1d5-ebb7d6fc-a4eb3531-536a611a-26ffd7ca.jpg
+Status: CORRUPTED | Subject: 11067808 | Study: s53186320 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11067808\s53186320\9040d073-b1e2cfa5-0029aa0e-191ab258-6af4ca2a.jpg
+Status: CORRUPTED | Subject: 11068487 | Study: s58054197 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068487\s58054197\38684d20-e3e3a493-466a5e48-aba56ac6-0e23f75e.jpg
+Status: CORRUPTED | Subject: 11068487 | Study: s58054197 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068487\s58054197\985c5716-b32b26a4-ea14ea1f-9559bb78-9e5d60b9.jpg
+Status: CORRUPTED | Subject: 11068487 | Study: s58499428 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068487\s58499428\4ea0be2f-d4f06ca8-0ab356d9-316a32ec-956e2120.jpg
+Status: CORRUPTED | Subject: 11068487 | Study: s58499428 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068487\s58499428\be355e1d-84c758ca-7241617e-822a1096-32410621.jpg
+Status: CORRUPTED | Subject: 11068487 | Study: s58499428 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068487\s58499428\c14794fc-bf535082-7cf31c57-70af2dd7-8942b99c.jpg
+Status: CORRUPTED | Subject: 11068569 | Study: s50453368 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068569\s50453368\67d774e0-a37c9fff-30fb152e-8a8839c5-6e7a476a.jpg
+Status: CORRUPTED | Subject: 11068569 | Study: s50453368 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068569\s50453368\ae0f961d-acc9cc82-0d2aaf0e-3497ff5b-f10a6f90.jpg
+Status: CORRUPTED | Subject: 11068569 | Study: s53322729 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068569\s53322729\24f48dcc-083ff43c-c4ad3b3d-4a660a13-6d00d8c1.jpg
+Status: CORRUPTED | Subject: 11068569 | Study: s53322729 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068569\s53322729\5575c081-ed09e054-de17ccac-4720970e-434cf175.jpg
+Status: CORRUPTED | Subject: 11068569 | Study: s53322729 | Path: C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11068569\s53322729\9fda78bd-973b1bc1-19ed2b23-cabb56dd-69a46219.jpg

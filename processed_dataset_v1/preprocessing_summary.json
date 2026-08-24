@@ -1,0 +1,32 @@
+{
+  "preprocessing_status": "PASS",
+  "total_images_found": 261137,
+  "valid_images": 261137,
+  "corrupted_images": 0,
+  "image_formats": {
+    ".jpg": 261137
+  },
+  "original_excluded_records": 110814,
+  "recovered_by_path_correction": 0,
+  "genuinely_missing_images": 110814,
+  "total_valid_image_report_pairs": 261137,
+  "total_unique_patients": 45562,
+  "patient_leakage_verification": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0,
+    "is_patient_isolated": true
+  },
+  "sample_verification_50": "50/50 VERIFIED (0 FAILED)",
+  "split_counts": {
+    "train_samples": 208769,
+    "train_patients": 36449,
+    "validation_samples": 26197,
+    "validation_patients": 4556,
+    "test_samples": 26171,
+    "test_patients": 4557
+  },
+  "final_dataset_ready_for_training": true,
+  "main_problem_found": "The 110,814 excluded records were listed in the raw MIMIC-CXR metadata but were genuinely omitted from the downloaded dataset subset (official_data_iccv_final), which physically contains exactly 261,137 JPG images on disk.",
+  "fix_applied": "Built a parallel disk index to search all 261,137 physical files for matching paths, filenames, or study IDs, confirming 0 images had wrong paths and all 110,814 are genuinely missing images. Filtered dataset to the 261,137 valid image-report pairs present on disk and created patient-isolated splits."
+}

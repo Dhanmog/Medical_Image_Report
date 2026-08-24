@@ -1,0 +1,507 @@
+MANUAL VERIFICATION OF 50 RANDOM IMAGE-REPORT PAIRS
+================================================================================
+Seed: 42 | Total Pool Size: 261137 valid pairs
+================================================================================
+
+--- SAMPLE 1 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 18083755
+Study ID   (study_id)   : s56318396
+Series/Img (series_id)  : 8e7439f1-a939500d-288045e1-fe3287b7-8c9f2685
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p18\p18083755\s56318396\8e7439f1-a939500d-288045e1-fe3287b7-8c9f2685.jpg
+Raw Report Preview      : Findings:  Impression: Evaluation of location of the endotracheal tube is difficult to assess due to the overlying catheters.  There is a new catheter projecting over the neck, likely external to the ...
+Cleaned Report Preview  : <start> findings: impression: evaluation of location of the endotracheal tube is difficult to assess due to the overlying catheters. there is a new catheter projecting over the neck, likely external t...
+--------------------------------------------------------------------------------
+--- SAMPLE 2 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 11438607
+Study ID   (study_id)   : s57046243
+Series/Img (series_id)  : 7fde5cf8-b337fec9-3c44364d-790d29e2-2634e322
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11438607\s57046243\7fde5cf8-b337fec9-3c44364d-790d29e2-2634e322.jpg
+Raw Report Preview      : Findings: Prior right-sided central venous catheter is no longer visualized.  Left chest wall dual lead pacing device is noted with lead tips in the right ventricular apex and right atrium.  Aortic co...
+Cleaned Report Preview  : <start> findings: prior right-sided central venous catheter is no longer visualized. left chest wall dual lead pacing device is noted with lead tips in the right ventricular apex and right atrium. aor...
+--------------------------------------------------------------------------------
+--- SAMPLE 3 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 10325086
+Study ID   (study_id)   : s57262568
+Series/Img (series_id)  : a69979f4-5abc806e-39769807-32095efc-89cf1949
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p10\p10325086\s57262568\a69979f4-5abc806e-39769807-32095efc-89cf1949.jpg
+Raw Report Preview      : Findings: PA and lateral views of the chest.  The lungs are clear without focal consolidation, effusion, or pneumothorax.  The cardiomediastinal silhouette is within normal limits.  No acute osseous a...
+Cleaned Report Preview  : <start> findings: pa and lateral views of the chest. the lungs are clear without focal consolidation, effusion, or pneumothorax. the cardiomediastinal silhouette is within normal limits. no acute osse...
+--------------------------------------------------------------------------------
+--- SAMPLE 4 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 19381927
+Study ID   (study_id)   : s52076244
+Series/Img (series_id)  : dd12d68a-439f8f64-29c188d4-13bf5c4c-0f019847
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p19\p19381927\s52076244\dd12d68a-439f8f64-29c188d4-13bf5c4c-0f019847.jpg
+Raw Report Preview      : Findings: The lungs are clear. The cardiomediastinal silhouette is within normal limits. No acute osseous abnormalities identified. Impression: No acute osseous abnormality....
+Cleaned Report Preview  : <start> findings: the lungs are clear. the cardiomediastinal silhouette is within normal limits. no acute osseous abnormalities identified. impression: no acute osseous abnormality. <end>...
+--------------------------------------------------------------------------------
+--- SAMPLE 5 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 13485127
+Study ID   (study_id)   : s57595857
+Series/Img (series_id)  : 804c2d8d-d6f5d6be-c1da9ba2-b37038e2-d7503aea
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p13\p13485127\s57595857\804c2d8d-d6f5d6be-c1da9ba2-b37038e2-d7503aea.jpg
+Raw Report Preview      : Findings: Left pectoral pacemaker with leads that are intact and appropriately positioned.  Sternotomy wires are also intact and appropriately positioned.  Linear opacities within the left lower lung ...
+Cleaned Report Preview  : <start> findings: left pectoral pacemaker with leads that are intact and appropriately positioned. sternotomy wires are also intact and appropriately positioned. linear opacities within the left lower...
+--------------------------------------------------------------------------------
+--- SAMPLE 6 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 13103184
+Study ID   (study_id)   : s56736794
+Series/Img (series_id)  : 5db25e26-6972ec86-e0ea63da-74af3263-4541bbac
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p13\p13103184\s56736794\5db25e26-6972ec86-e0ea63da-74af3263-4541bbac.jpg
+Raw Report Preview      : Findings: The heart is at the upper limits of normal size.  The aortic arch is calcified.  There is mild unfolding of the thoracic aorta.  Patchy medial right basilar opacity suggests minor atelectasi...
+Cleaned Report Preview  : <start> findings: the heart is at the upper limits of normal size. the aortic arch is calcified. there is mild unfolding of the thoracic aorta. patchy medial right basilar opacity suggests minor atele...
+--------------------------------------------------------------------------------
+--- SAMPLE 7 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 12836341
+Study ID   (study_id)   : s59857236
+Series/Img (series_id)  : 0dfa2829-4a454576-6fd9a5bf-06143d60-1da00270
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p12\p12836341\s59857236\0dfa2829-4a454576-6fd9a5bf-06143d60-1da00270.jpg
+Raw Report Preview      : Findings: The lungs are well expanded and clear. There is no pleural effusion or pneumothorax. The cardiomediastinal silhouette is unremarkable. Impression: No acute cardiopulmonary process....
+Cleaned Report Preview  : <start> findings: the lungs are well expanded and clear. there is no pleural effusion or pneumothorax. the cardiomediastinal silhouette is unremarkable. impression: no acute cardiopulmonary process. <...
+--------------------------------------------------------------------------------
+--- SAMPLE 8 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 11798251
+Study ID   (study_id)   : s59834589
+Series/Img (series_id)  : c97ded3c-90779c47-50f8c681-a15a753c-16776984
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11798251\s59834589\c97ded3c-90779c47-50f8c681-a15a753c-16776984.jpg
+Raw Report Preview      : Findings: A right-sided dialysis catheter terminates in the lower superior vena cava.  The heart is at the upper limits of normal size.  The mediastinal and hilar contours appear within normal limits....
+Cleaned Report Preview  : <start> findings: a right-sided dialysis catheter terminates in the lower superior vena cava. the heart is at the upper limits of normal size. the mediastinal and hilar contours appear within normal l...
+--------------------------------------------------------------------------------
+--- SAMPLE 9 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 19312141
+Study ID   (study_id)   : s53452621
+Series/Img (series_id)  : 67fa7dec-a01c21f1-f1cf0026-495e2977-24e7da53
+View                    : FRONTAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p19\p19312141\s53452621\67fa7dec-a01c21f1-f1cf0026-495e2977-24e7da53.jpg
+Raw Report Preview      : Findings:  Impression: No evidence of acute cardiopulmonary abnormalities....
+Cleaned Report Preview  : <start> findings: impression: no evidence of acute cardiopulmonary abnormalities. <end>...
+--------------------------------------------------------------------------------
+--- SAMPLE 10 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 11325182
+Study ID   (study_id)   : s59837642
+Series/Img (series_id)  : afb49e15-300d4649-4fca023c-be45f78a-4167a2a0
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11325182\s59837642\afb49e15-300d4649-4fca023c-be45f78a-4167a2a0.jpg
+Raw Report Preview      : Findings:  Impression: Within the limitations of the chest radiograph technique, this study is normal....
+Cleaned Report Preview  : <start> findings: impression: within the limitations of the chest radiograph technique, this study is normal. <end>...
+--------------------------------------------------------------------------------
+--- SAMPLE 11 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 18561307
+Study ID   (study_id)   : s54028398
+Series/Img (series_id)  : 3835398e-48d576d5-50276814-08f345c2-a9c19f56
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p18\p18561307\s54028398\3835398e-48d576d5-50276814-08f345c2-a9c19f56.jpg
+Raw Report Preview      : Findings: AP and lateral views of the chest.  The lungs are clear of focal consolidation or large effusion.  Lateral view is limited due to patient's arms being down by her side.  Cardiac silhouette i...
+Cleaned Report Preview  : <start> findings: ap and lateral views of the chest. the lungs are clear of focal consolidation or large effusion. lateral view is limited due to patient s arms being down by her side. cardiac silhoue...
+--------------------------------------------------------------------------------
+--- SAMPLE 12 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 19371972
+Study ID   (study_id)   : s50580253
+Series/Img (series_id)  : b08f2efd-834ca81a-df8c4cb1-e17077cb-290a75cc
+View                    : FRONTAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p19\p19371972\s50580253\b08f2efd-834ca81a-df8c4cb1-e17077cb-290a75cc.jpg
+Raw Report Preview      : Findings: Cardiomediastinal contours are within normal limits.  Band-like atelectasis is present in the lower lobes, left greater than right, but there are no new areas of consolidation to suggest the...
+Cleaned Report Preview  : <start> findings: cardiomediastinal contours are within normal limits. band-like atelectasis is present in the lower lobes, left greater than right, but there are no new areas of consolidation to sugg...
+--------------------------------------------------------------------------------
+--- SAMPLE 13 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 19622936
+Study ID   (study_id)   : s58398447
+Series/Img (series_id)  : b4e488ac-8dbd5e9f-450e6b00-d0278378-ce802671
+View                    : FRONTAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p19\p19622936\s58398447\b4e488ac-8dbd5e9f-450e6b00-d0278378-ce802671.jpg
+Raw Report Preview      : Findings:  Impression: Port-A-Cath catheter tip terminates at the level of cavoatrial junction.  Heart size and mediastinum are stable.  Lungs are hyperinflated.  There is no pleural effusion or pneum...
+Cleaned Report Preview  : <start> findings: impression: port-a-cath catheter tip terminates at the level of cavoatrial junction. heart size and mediastinum are stable. lungs are hyperinflated. there is no pleural effusion or p...
+--------------------------------------------------------------------------------
+--- SAMPLE 14 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 16920636
+Study ID   (study_id)   : s54144791
+Series/Img (series_id)  : 98295421-767d05d2-68dda94e-519d20c7-22b10cfc
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p16\p16920636\s54144791\98295421-767d05d2-68dda94e-519d20c7-22b10cfc.jpg
+Raw Report Preview      : Findings:  Impression: Compared to prior chest radiographs ___ through ___.  Small to moderate bilateral pleural effusion and associated bibasilar atelectasis have worsened since ___.  Overall hyperin...
+Cleaned Report Preview  : <start> findings: impression: compared to prior chest radiographs through . small to moderate bilateral pleural effusion and associated bibasilar atelectasis have worsened since . overall hyperinflati...
+--------------------------------------------------------------------------------
+--- SAMPLE 15 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 11137490
+Study ID   (study_id)   : s58943411
+Series/Img (series_id)  : 065cbeb0-5fb2793b-352807ab-9672bdbe-6e65a4a0
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11137490\s58943411\065cbeb0-5fb2793b-352807ab-9672bdbe-6e65a4a0.jpg
+Raw Report Preview      : Findings: Heart size is normal.  Calcified right hilar lymph nodes are compatible prior granulomatous disease.  The mediastinal and hilar contours are otherwise unchanged.  Lungs are hyperinflated wit...
+Cleaned Report Preview  : <start> findings: heart size is normal. calcified right hilar lymph nodes are compatible prior granulomatous disease. the mediastinal and hilar contours are otherwise unchanged. lungs are hyperinflate...
+--------------------------------------------------------------------------------
+--- SAMPLE 16 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 17471483
+Study ID   (study_id)   : s59567776
+Series/Img (series_id)  : ad070942-c3a2a92b-15733f32-da2b5974-14f88d9c
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p17\p17471483\s59567776\ad070942-c3a2a92b-15733f32-da2b5974-14f88d9c.jpg
+Raw Report Preview      : Findings:  Impression: In comparison with the study of ___, there is an no change or evidence of acute pneumonia, vascular congestion, or pleural effusion.  Given the resolution limitation of plain ra...
+Cleaned Report Preview  : <start> findings: impression: in comparison with the study of , there is an no change or evidence of acute pneumonia, vascular congestion, or pleural effusion. given the resolution limitation of plain...
+--------------------------------------------------------------------------------
+--- SAMPLE 17 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 15354006
+Study ID   (study_id)   : s59335606
+Series/Img (series_id)  : bca58bec-6d16c487-3f7fb2cf-60e11dee-78e2d593
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p15\p15354006\s59335606\bca58bec-6d16c487-3f7fb2cf-60e11dee-78e2d593.jpg
+Raw Report Preview      : Findings: No focal consolidation, pleural effusion or pneumothorax is present.  Heart size, mediastinal and hilar contours are normal.  Lungs remain stably hyperinflated with unchanged scarring at the...
+Cleaned Report Preview  : <start> findings: no focal consolidation, pleural effusion or pneumothorax is present. heart size, mediastinal and hilar contours are normal. lungs remain stably hyperinflated with unchanged scarring ...
+--------------------------------------------------------------------------------
+--- SAMPLE 18 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 10426775
+Study ID   (study_id)   : s58627729
+Series/Img (series_id)  : 7e61564b-01923d4b-e6d58024-ce4a4e4b-7de9eda8
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p10\p10426775\s58627729\7e61564b-01923d4b-e6d58024-ce4a4e4b-7de9eda8.jpg
+Raw Report Preview      : Findings: Cardiac silhouette size is mildly enlarged.  The mediastinal and hilar contours are within normal limits.  Pulmonary vasculature is normal.  Lungs are clear.  No focal consolidation, pleural...
+Cleaned Report Preview  : <start> findings: cardiac silhouette size is mildly enlarged. the mediastinal and hilar contours are within normal limits. pulmonary vasculature is normal. lungs are clear. no focal consolidation, ple...
+--------------------------------------------------------------------------------
+--- SAMPLE 19 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 10392771
+Study ID   (study_id)   : s54729476
+Series/Img (series_id)  : 6aac6fe7-b6075557-e43368fa-bc1e44f6-8b5d5fdc
+View                    : FRONTAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p10\p10392771\s54729476\6aac6fe7-b6075557-e43368fa-bc1e44f6-8b5d5fdc.jpg
+Raw Report Preview      : Findings:  Impression: In comparison with the study of ___, there is little change.  Port-A-Cath extends to the right atrium.  No evidence of acute pneumonia or vascular congestion....
+Cleaned Report Preview  : <start> findings: impression: in comparison with the study of , there is little change. port-a-cath extends to the right atrium. no evidence of acute pneumonia or vascular congestion. <end>...
+--------------------------------------------------------------------------------
+--- SAMPLE 20 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 11219670
+Study ID   (study_id)   : s58774745
+Series/Img (series_id)  : 207d205c-1d04e8ea-8d3d7146-820965ad-6dca7a37
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11219670\s58774745\207d205c-1d04e8ea-8d3d7146-820965ad-6dca7a37.jpg
+Raw Report Preview      : Findings:  Impression: Right-sided PICC line and left-sided pacemaker are unchanged in position. The feeding tube has been advanced and its tip is in the body of the stomach. There is unchanged cardio...
+Cleaned Report Preview  : <start> findings: impression: right-sided picc line and left-sided pacemaker are unchanged in position. the feeding tube has been advanced and its tip is in the body of the stomach. there is unchanged...
+--------------------------------------------------------------------------------
+--- SAMPLE 21 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 12771404
+Study ID   (study_id)   : s59897225
+Series/Img (series_id)  : 52885560-00ac1508-c57fdfee-bf5ad311-76b7aa14
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p12\p12771404\s59897225\52885560-00ac1508-c57fdfee-bf5ad311-76b7aa14.jpg
+Raw Report Preview      : Findings: All the monitoring devices are unchanged.  Lung volumes are slightly increased.  Improved right base ventilation for minimal reduction of atelectasis.  Heart is still enlarged with aorta elo...
+Cleaned Report Preview  : <start> findings: all the monitoring devices are unchanged. lung volumes are slightly increased. improved right base ventilation for minimal reduction of atelectasis. heart is still enlarged with aort...
+--------------------------------------------------------------------------------
+--- SAMPLE 22 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 12948096
+Study ID   (study_id)   : s50109204
+Series/Img (series_id)  : 27622d45-f9d4b30c-590e7b3c-ff084953-642e3801
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p12\p12948096\s50109204\27622d45-f9d4b30c-590e7b3c-ff084953-642e3801.jpg
+Raw Report Preview      : Findings: Upright portable view of the chest demonstrates interval placement of a chest tube, its tip projecting over right apex with associated reexpansion of the right lung.  Small apical pneumothor...
+Cleaned Report Preview  : <start> findings: upright portable view of the chest demonstrates interval placement of a chest tube, its tip projecting over right apex with associated reexpansion of the right lung. small apical pne...
+--------------------------------------------------------------------------------
+--- SAMPLE 23 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 16399592
+Study ID   (study_id)   : s52637273
+Series/Img (series_id)  : bd6c0e6c-4871b3a1-2aea8ef2-4ead66d0-e9d73ff8
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p16\p16399592\s52637273\bd6c0e6c-4871b3a1-2aea8ef2-4ead66d0-e9d73ff8.jpg
+Raw Report Preview      : Findings: The lungs are clear.  The cardiomediastinal silhouette is within normal limits.  No acute osseous abnormalities.  No free air below the diaphragm. Impression: No acute cardiopulmonary proces...
+Cleaned Report Preview  : <start> findings: the lungs are clear. the cardiomediastinal silhouette is within normal limits. no acute osseous abnormalities. no free air below the diaphragm. impression: no acute cardiopulmonary p...
+--------------------------------------------------------------------------------
+--- SAMPLE 24 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 17629021
+Study ID   (study_id)   : s53298954
+Series/Img (series_id)  : 6f40c6e1-6fb5c18f-9157c61f-b1fbae5a-6281aab7
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p17\p17629021\s53298954\6f40c6e1-6fb5c18f-9157c61f-b1fbae5a-6281aab7.jpg
+Raw Report Preview      : Findings: The lungs are clear without focal consolidation.  No pleural effusion or pneumothorax is seen.  The cardiac and mediastinal silhouettes are unremarkable.  No pulmonary edema is seen. Impress...
+Cleaned Report Preview  : <start> findings: the lungs are clear without focal consolidation. no pleural effusion or pneumothorax is seen. the cardiac and mediastinal silhouettes are unremarkable. no pulmonary edema is seen. im...
+--------------------------------------------------------------------------------
+--- SAMPLE 25 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 10347064
+Study ID   (study_id)   : s58940330
+Series/Img (series_id)  : 75ba2a1f-2d4d8514-8a544375-0d8abe5a-95abe42b
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p10\p10347064\s58940330\75ba2a1f-2d4d8514-8a544375-0d8abe5a-95abe42b.jpg
+Raw Report Preview      : Findings:  Impression: Extensive left sided rib fractures, with a small left pleural effusion and left basal consolidation. Please see concurrent CT torso for further evaluation....
+Cleaned Report Preview  : <start> findings: impression: extensive left sided rib fractures, with a small left pleural effusion and left basal consolidation. please see concurrent ct torso for further evaluation. <end>...
+--------------------------------------------------------------------------------
+--- SAMPLE 26 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 17107268
+Study ID   (study_id)   : s54633587
+Series/Img (series_id)  : 9b0ed521-961c393e-57ef04bf-ff9a0d6d-fa3e209b
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p17\p17107268\s54633587\9b0ed521-961c393e-57ef04bf-ff9a0d6d-fa3e209b.jpg
+Raw Report Preview      : Findings: Extremely low lung volumes are again noted with secondary crowding of the bronchovascular markings. The lungs however clear focal consolidation, or effusion. The cardiomediastinal silhouette...
+Cleaned Report Preview  : <start> findings: extremely low lung volumes are again noted with secondary crowding of the bronchovascular markings. the lungs however clear focal consolidation, or effusion. the cardiomediastinal si...
+--------------------------------------------------------------------------------
+--- SAMPLE 27 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 12518657
+Study ID   (study_id)   : s54075278
+Series/Img (series_id)  : b1ce5fec-8917327e-16d892eb-852a34e8-73207367
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p12\p12518657\s54075278\b1ce5fec-8917327e-16d892eb-852a34e8-73207367.jpg
+Raw Report Preview      : Findings: The lungs are clear.  Cardiomediastinal silhouette is stable given slight rotation to the right.  No acute osseous abnormality is detected. Impression: No acute cardiopulmonary process....
+Cleaned Report Preview  : <start> findings: the lungs are clear. cardiomediastinal silhouette is stable given slight rotation to the right. no acute osseous abnormality is detected. impression: no acute cardiopulmonary process...
+--------------------------------------------------------------------------------
+--- SAMPLE 28 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 19054786
+Study ID   (study_id)   : s58427440
+Series/Img (series_id)  : 9d1bc24d-d1c2cc59-75319e67-96e7a26d-9ec8d24e
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p19\p19054786\s58427440\9d1bc24d-d1c2cc59-75319e67-96e7a26d-9ec8d24e.jpg
+Raw Report Preview      : Findings: Cardiac silhouette size is normal.  Mediastinal and hilar contours are within normal limits.  Pulmonary vasculature is not engorged.  Minimal atelectasis is noted in the lung bases without f...
+Cleaned Report Preview  : <start> findings: cardiac silhouette size is normal. mediastinal and hilar contours are within normal limits. pulmonary vasculature is not engorged. minimal atelectasis is noted in the lung bases with...
+--------------------------------------------------------------------------------
+--- SAMPLE 29 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 18214395
+Study ID   (study_id)   : s55074751
+Series/Img (series_id)  : 1183542e-a084306f-5f8108ce-b2f26fdb-4952cfdc
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p18\p18214395\s55074751\1183542e-a084306f-5f8108ce-b2f26fdb-4952cfdc.jpg
+Raw Report Preview      : Findings: The cardiomediastinal and hilar contours are within normal limits.  Lungs are well expanded and clear.  There is no focal consolidation, pleural effusion or pneumothorax. Impression: No acut...
+Cleaned Report Preview  : <start> findings: the cardiomediastinal and hilar contours are within normal limits. lungs are well expanded and clear. there is no focal consolidation, pleural effusion or pneumothorax. impression: n...
+--------------------------------------------------------------------------------
+--- SAMPLE 30 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 18872738
+Study ID   (study_id)   : s56782988
+Series/Img (series_id)  : 92bea871-abaa0d6e-b12dba75-df47fb33-0e019db6
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p18\p18872738\s56782988\92bea871-abaa0d6e-b12dba75-df47fb33-0e019db6.jpg
+Raw Report Preview      : Findings: Right internal jugular central venous catheter is seen terminating in the low SVC/ cavoatrial junction without evidence of pneumothorax. Dual lead left-sided pacer device is similar in posit...
+Cleaned Report Preview  : <start> findings: right internal jugular central venous catheter is seen terminating in the low svc cavoatrial junction without evidence of pneumothorax. dual lead left-sided pacer device is similar i...
+--------------------------------------------------------------------------------
+--- SAMPLE 31 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 16914658
+Study ID   (study_id)   : s52518412
+Series/Img (series_id)  : acf1304f-a2113068-c20b4dbc-857abd7f-72988c09
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p16\p16914658\s52518412\acf1304f-a2113068-c20b4dbc-857abd7f-72988c09.jpg
+Raw Report Preview      : Findings: The cardiac, mediastinal and hilar contours appear unchanged.  There is no pleural effusion or pneumothorax.  The lungs appear clear. Moderate degenerative changes of the thoracolumbar spine...
+Cleaned Report Preview  : <start> findings: the cardiac, mediastinal and hilar contours appear unchanged. there is no pleural effusion or pneumothorax. the lungs appear clear. moderate degenerative changes of the thoracolumbar...
+--------------------------------------------------------------------------------
+--- SAMPLE 32 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 15324792
+Study ID   (study_id)   : s56083023
+Series/Img (series_id)  : 2d898f78-db42a363-bbfc1b19-22c5ec79-21c352e9
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p15\p15324792\s56083023\2d898f78-db42a363-bbfc1b19-22c5ec79-21c352e9.jpg
+Raw Report Preview      : Findings: In comparison with the earlier study of this date, the OG tube has been pulled back so that the tip lies in the distal esophagus.  This information was not telephoned to the referring clinic...
+Cleaned Report Preview  : <start> findings: in comparison with the earlier study of this date, the og tube has been pulled back so that the tip lies in the distal esophagus. this information was not telephoned to the referring...
+--------------------------------------------------------------------------------
+--- SAMPLE 33 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 12801875
+Study ID   (study_id)   : s58213261
+Series/Img (series_id)  : d31009ba-ebce02c8-32599bd3-18044da0-f2f805d1
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p12\p12801875\s58213261\d31009ba-ebce02c8-32599bd3-18044da0-f2f805d1.jpg
+Raw Report Preview      : Findings:  Impression: PA and lateral chest compared to ___:  Mild cardiomegaly is stable.  Previous left lower lobe pneumonia has cleared.  There may be a small pericardial effusion, but no pleural e...
+Cleaned Report Preview  : <start> findings: impression: pa and lateral chest compared to : mild cardiomegaly is stable. previous left lower lobe pneumonia has cleared. there may be a small pericardial effusion, but no pleural ...
+--------------------------------------------------------------------------------
+--- SAMPLE 34 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 15677928
+Study ID   (study_id)   : s56288388
+Series/Img (series_id)  : dc3eeac2-68b92100-36de211f-654fb7b3-7f2a8eca
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p15\p15677928\s56288388\dc3eeac2-68b92100-36de211f-654fb7b3-7f2a8eca.jpg
+Raw Report Preview      : Findings: Lungs are clear without focal consolidation, effusion, or pneumothorax.  The cardiomediastinal silhouette is normal. No acute osseous abnormality is identified.  Right neck IV is identified ...
+Cleaned Report Preview  : <start> findings: lungs are clear without focal consolidation, effusion, or pneumothorax. the cardiomediastinal silhouette is normal. no acute osseous abnormality is identified. right neck iv is ident...
+--------------------------------------------------------------------------------
+--- SAMPLE 35 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 17459404
+Study ID   (study_id)   : s54584632
+Series/Img (series_id)  : 6935c19a-6d22c11b-8803022c-8381d265-03bd5534
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p17\p17459404\s54584632\6935c19a-6d22c11b-8803022c-8381d265-03bd5534.jpg
+Raw Report Preview      : Findings:  Impression: Right basal consolidation has improved.  Small right pleural effusion is new.  Severe left lower lobe consolidation unchanged, but lymphovenous congestion in the left upper lobe...
+Cleaned Report Preview  : <start> findings: impression: right basal consolidation has improved. small right pleural effusion is new. severe left lower lobe consolidation unchanged, but lymphovenous congestion in the left upper...
+--------------------------------------------------------------------------------
+--- SAMPLE 36 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 13522073
+Study ID   (study_id)   : s54486964
+Series/Img (series_id)  : 111c1e35-83bd7bd5-cab1dc49-da333bd9-9e246a54
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p13\p13522073\s54486964\111c1e35-83bd7bd5-cab1dc49-da333bd9-9e246a54.jpg
+Raw Report Preview      : Findings:  Impression: Comparison to ___.  No relevant change.  Low lung volumes.  Mild widening of the mediastinum but no mediastinal contour abnormalities.  Mild cardiomegaly.  Mild to moderate pulm...
+Cleaned Report Preview  : <start> findings: impression: comparison to . no relevant change. low lung volumes. mild widening of the mediastinum but no mediastinal contour abnormalities. mild cardiomegaly. mild to moderate pulmo...
+--------------------------------------------------------------------------------
+--- SAMPLE 37 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 11420353
+Study ID   (study_id)   : s52224094
+Series/Img (series_id)  : 83300272-54543231-a2dd4dac-c17b6c7b-974d72b3
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11420353\s52224094\83300272-54543231-a2dd4dac-c17b6c7b-974d72b3.jpg
+Raw Report Preview      : Findings: As compared to the previous radiograph, there is no relevant change.  Minimal atelectasis at the right lung bases, small to moderate left pleural effusion with subsequent areas of atelectasi...
+Cleaned Report Preview  : <start> findings: as compared to the previous radiograph, there is no relevant change. minimal atelectasis at the right lung bases, small to moderate left pleural effusion with subsequent areas of ate...
+--------------------------------------------------------------------------------
+--- SAMPLE 38 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 17287581
+Study ID   (study_id)   : s55739580
+Series/Img (series_id)  : 4aa2ef00-238a1db4-97cf3b38-ad12100d-fea06258
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p17\p17287581\s55739580\4aa2ef00-238a1db4-97cf3b38-ad12100d-fea06258.jpg
+Raw Report Preview      : Findings: Frontal and lateral views of the chest were  obtained.  There is minimal bibasilar atelectasis.  No focal consolidation is seen.  There is no pleural effusion or pneumothorax.  The cardiac s...
+Cleaned Report Preview  : <start> findings: frontal and lateral views of the chest were obtained. there is minimal bibasilar atelectasis. no focal consolidation is seen. there is no pleural effusion or pneumothorax. the cardia...
+--------------------------------------------------------------------------------
+--- SAMPLE 39 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 10091873
+Study ID   (study_id)   : s51220649
+Series/Img (series_id)  : a8d6c584-ef53794a-421d516a-62093d3f-5728381e
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p10\p10091873\s51220649\a8d6c584-ef53794a-421d516a-62093d3f-5728381e.jpg
+Raw Report Preview      : Findings: Heart size is normal.  The mediastinal and hilar contours are normal. The pulmonary vasculature is normal. Lungs are clear.  No pleural effusion or pneumothorax is seen. There are no acute o...
+Cleaned Report Preview  : <start> findings: heart size is normal. the mediastinal and hilar contours are normal. the pulmonary vasculature is normal. lungs are clear. no pleural effusion or pneumothorax is seen. there are no a...
+--------------------------------------------------------------------------------
+--- SAMPLE 40 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 19611311
+Study ID   (study_id)   : s55723722
+Series/Img (series_id)  : f93ba768-36de1c91-cc6debb3-2cee5ca3-6b36a211
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p19\p19611311\s55723722\f93ba768-36de1c91-cc6debb3-2cee5ca3-6b36a211.jpg
+Raw Report Preview      : Findings: Heart size is normal. The aorta is mildly unfolded. Mediastinal and hilar contours are otherwise within normal limits. Pulmonary vasculature is normal. Subsegmental atelectasis is noted in t...
+Cleaned Report Preview  : <start> findings: heart size is normal. the aorta is mildly unfolded. mediastinal and hilar contours are otherwise within normal limits. pulmonary vasculature is normal. subsegmental atelectasis is no...
+--------------------------------------------------------------------------------
+--- SAMPLE 41 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 10883780
+Study ID   (study_id)   : s52005082
+Series/Img (series_id)  : 1a816efe-206373d1-8f31a5f9-a1645fdc-ab107db4
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p10\p10883780\s52005082\1a816efe-206373d1-8f31a5f9-a1645fdc-ab107db4.jpg
+Raw Report Preview      : Findings: The lungs are clear without focal consolidation.  No pleural effusion or pneumothorax is seen.  The cardiac and mediastinal silhouettes are unremarkable.  No displaced fracture is seen. Impr...
+Cleaned Report Preview  : <start> findings: the lungs are clear without focal consolidation. no pleural effusion or pneumothorax is seen. the cardiac and mediastinal silhouettes are unremarkable. no displaced fracture is seen....
+--------------------------------------------------------------------------------
+--- SAMPLE 42 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 12029767
+Study ID   (study_id)   : s58260128
+Series/Img (series_id)  : 8c285a18-f68b6f54-4a54f437-b2e40588-0403d854
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p12\p12029767\s58260128\8c285a18-f68b6f54-4a54f437-b2e40588-0403d854.jpg
+Raw Report Preview      : Findings: PA and lateral views of the chest provided.   Airspace consolidation is noted in the left lower lobe compatible with pneumonia.  There may also be a small left pleural effusion.  The right l...
+Cleaned Report Preview  : <start> findings: pa and lateral views of the chest provided. airspace consolidation is noted in the left lower lobe compatible with pneumonia. there may also be a small left pleural effusion. the rig...
+--------------------------------------------------------------------------------
+--- SAMPLE 43 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 18834094
+Study ID   (study_id)   : s57909676
+Series/Img (series_id)  : f166f75a-ef882f4a-56bfd257-724edd58-419148c2
+View                    : FRONTAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p18\p18834094\s57909676\f166f75a-ef882f4a-56bfd257-724edd58-419148c2.jpg
+Raw Report Preview      : Findings: Compared with outside chest radiograph on ___, there is no significant change.  Patient is status post right upper lobe resection with volume loss in the right lobe and right basilar scarrin...
+Cleaned Report Preview  : <start> findings: compared with outside chest radiograph on , there is no significant change. patient is status post right upper lobe resection with volume loss in the right lobe and right basilar sca...
+--------------------------------------------------------------------------------
+--- SAMPLE 44 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 15360048
+Study ID   (study_id)   : s59904385
+Series/Img (series_id)  : 09d7c4d5-ee935742-11587f8e-c9a0b36e-06b75ce3
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p15\p15360048\s59904385\09d7c4d5-ee935742-11587f8e-c9a0b36e-06b75ce3.jpg
+Raw Report Preview      : Findings:  Impression: In comparison to ___ chest radiograph, a left chest tube remains in place with side-port external to the pleural space within the adjacent soft tissues of the lateral chest wall...
+Cleaned Report Preview  : <start> findings: impression: in comparison to chest radiograph, a left chest tube remains in place with side-port external to the pleural space within the adjacent soft tissues of the lateral chest w...
+--------------------------------------------------------------------------------
+--- SAMPLE 45 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 14325424
+Study ID   (study_id)   : s55780884
+Series/Img (series_id)  : 75fea5f4-ddca8f8b-7bcaabd7-ffe3fce3-8843a507
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p14\p14325424\s55780884\75fea5f4-ddca8f8b-7bcaabd7-ffe3fce3-8843a507.jpg
+Raw Report Preview      : Findings: The heart is normal in size.  There is moderate unfolding of the aorta, which is also tortuous.  The right upper mediastinal margin appears convexed and thickened.  Otherwise, the lungs appe...
+Cleaned Report Preview  : <start> findings: the heart is normal in size. there is moderate unfolding of the aorta, which is also tortuous. the right upper mediastinal margin appears convexed and thickened. otherwise, the lungs...
+--------------------------------------------------------------------------------
+--- SAMPLE 46 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 13517478
+Study ID   (study_id)   : s50736845
+Series/Img (series_id)  : 833a337c-87ea11f3-aeaecd02-4e9d4a8e-6350e5bc
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p13\p13517478\s50736845\833a337c-87ea11f3-aeaecd02-4e9d4a8e-6350e5bc.jpg
+Raw Report Preview      : Findings: Portable upright chest radiograph ___ at 09:31 is submitted. Impression: Persistent loculated left pleural effusion has slightly increased in size and there is associated pleural thickening ...
+Cleaned Report Preview  : <start> findings: portable upright chest radiograph at 09:31 is submitted. impression: persistent loculated left pleural effusion has slightly increased in size and there is associated pleural thicken...
+--------------------------------------------------------------------------------
+--- SAMPLE 47 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 11972365
+Study ID   (study_id)   : s54693629
+Series/Img (series_id)  : 07db4c89-56fdb823-0108b569-5ec10a72-69691116
+View                    : LATERAL
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p11\p11972365\s54693629\07db4c89-56fdb823-0108b569-5ec10a72-69691116.jpg
+Raw Report Preview      : Findings: Heart size is mildly enlarged. Prominent mediastinum is due a least in part to a borderline enlarged ascending aorta. The hilar are unremarkable. Lung volumes are slightly low, and there is ...
+Cleaned Report Preview  : <start> findings: heart size is mildly enlarged. prominent mediastinum is due a least in part to a borderline enlarged ascending aorta. the hilar are unremarkable. lung volumes are slightly low, and t...
+--------------------------------------------------------------------------------
+--- SAMPLE 48 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 12731907
+Study ID   (study_id)   : s59868760
+Series/Img (series_id)  : 8adc7713-1d4df9af-109f7ec2-f2f423d7-7bbd4ee8
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p12\p12731907\s59868760\8adc7713-1d4df9af-109f7ec2-f2f423d7-7bbd4ee8.jpg
+Raw Report Preview      : Findings: There is a new chest tube in place, terminating along the lateral right upper hemithorax. Coinciding with placement there has been marked decrease in a right-sided pneumothorax, which is now...
+Cleaned Report Preview  : <start> findings: there is a new chest tube in place, terminating along the lateral right upper hemithorax. coinciding with placement there has been marked decrease in a right-sided pneumothorax, whic...
+--------------------------------------------------------------------------------
+--- SAMPLE 49 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 16075171
+Study ID   (study_id)   : s51208527
+Series/Img (series_id)  : ad9f71d8-2a22df38-ff291ccb-a61b1759-a14c3b12
+View                    : AP
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p16\p16075171\s51208527\ad9f71d8-2a22df38-ff291ccb-a61b1759-a14c3b12.jpg
+Raw Report Preview      : Findings: The cardiac size is again enlarged.  There is diffusely increased interstitial markings of the lungs particularly at bilateral bases which are consistent with the patient's chronic interstit...
+Cleaned Report Preview  : <start> findings: the cardiac size is again enlarged. there is diffusely increased interstitial markings of the lungs particularly at bilateral bases which are consistent with the patient s chronic in...
+--------------------------------------------------------------------------------
+--- SAMPLE 50 [VERIFIED] ---
+Status                  : VERIFIED
+Patient ID (subject_id) : 19670384
+Study ID   (study_id)   : s51945842
+Series/Img (series_id)  : 20c86d82-36f6a6b4-949d72e2-d8e1150c-a088a0a4
+View                    : PA
+Image Path              : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\official_data_iccv_final\files\p19\p19670384\s51945842\20c86d82-36f6a6b4-949d72e2-d8e1150c-a088a0a4.jpg
+Raw Report Preview      : Findings: The heart is top-normal in size.  There is no focal consolidation.  There is no pneumothorax or pleural effusion.  Bilateral shoulder prostheses are present. Impression: No evidence of pneum...
+Cleaned Report Preview  : <start> findings: the heart is top-normal in size. there is no focal consolidation. there is no pneumothorax or pleural effusion. bilateral shoulder prostheses are present. impression: no evidence of ...
+--------------------------------------------------------------------------------
+
+SUMMARY: 50 / 50 samples VERIFIED (0 FAILED)

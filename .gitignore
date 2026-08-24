@@ -26,3 +26,24 @@ ENV/
 # System files
 .DS_Store
 Thumbs.db
+
+# Trained model weights (large binary files - exceed GitHub 100MB limit)
+# Only exclude weight files, not result text files
+*.keras
+*.pt
+*.pth
+*.bin
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+
+# Preprocessed image datasets (large image directories)
+processed_dataset_v1/preprocessed_images/
+
+# Large raw data directories
+processed_dataset_v1/raw_parsed_mappings.csv
+official_data_iccv_final/
+
+# Scratch / temporary files
+scratch/

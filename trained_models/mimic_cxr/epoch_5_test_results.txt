@@ -1,0 +1,80 @@
+MIMIC-CXR EPOCH 5 EVALUATION TEST RESULTS
+=================================================================
+Checkpoint File Used   : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\trained_models\mimic_cxr\mimic_cxr_epoch_5.keras
+Test Dataset Used      : C:\Users\dhanu\Desktop\MajorProject\medical_image_report\mimic_cxr_processed_val.csv
+Number of Test Samples : 233
+Number of Batches      : 15
+
+EVALUATION METRICS:
+  - Test Loss          : 1.3764
+  - Test Accuracy      : 71.26%
+  - BLEU-1             : 0.1831
+  - BLEU-2             : 0.0780
+  - BLEU-3             : 0.0391
+  - BLEU-4             : 0.0164
+  - ROUGE-1            : 0.2485
+  - ROUGE-2            : 0.0588
+  - ROUGE-L            : 0.1598
+
+SAMPLE X-RAY REPORT PREDICTIONS:
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s50084553
+View       : AP
+Actual     : start findings: impression: compared to chest radiographs since , most recently . large right and moderate left pleural effusions and severe bibasilar atelectasis are unchanged. cardiac silhouette is obscured. no pneumothorax. pulmonary edema is mild, obscured radiographically by overlying abnormalities. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s51180958
+View       : LATERAL
+Actual     : start findings: no evidence of consolidation to suggest pneumonia is seen. there is some retrocardiac atelectasis. a small left pleural effusion may be present. no pneumothorax is seen. no pulmonary edema. a right granuloma is unchanged. the heart is mildly enlarged, unchanged. there is tortuosity of the aorta. impression: end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s51180958
+View       : LL
+Actual     : start findings: no evidence of consolidation to suggest pneumonia is seen. there is some retrocardiac atelectasis. a small left pleural effusion may be present. no pneumothorax is seen. no pulmonary edema. a right granuloma is unchanged. the heart is mildly enlarged, unchanged. there is tortuosity of the aorta. impression: end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s52139270
+View       : PA
+Actual     : start findings: there are moderate bilateral pleural effusions with overlying atelectasis, underlying consolidation not excluded. mild prominence of the interstitial markings suggests mild pulmonary edema. the cardiac silhouette is mildly enlarged. the mediastinal contours are unremarkable. there is no evidence of pneumothorax. impression: bilateral pleural effusions, cardiomegaly and mild edema suggest fluid overload, however, given the clinical history, underlying consolidation due to pneumonia cannot be excluded at the lung bases. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s52139270
+View       : FRONTAL
+Actual     : start findings: there are moderate bilateral pleural effusions with overlying atelectasis, underlying consolidation not excluded. mild prominence of the interstitial markings suggests mild pulmonary edema. the cardiac silhouette is mildly enlarged. the mediastinal contours are unremarkable. there is no evidence of pneumothorax. impression: bilateral pleural effusions, cardiomegaly and mild edema suggest fluid overload, however, given the clinical history, underlying consolidation due to pneumonia cannot be excluded at the lung bases. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s52309364
+View       : FRONTAL
+Actual     : start findings: moderate to large bilateral pleural effusions are again seen, likely right greater than left. there is suspected superimposed pulmonary edema may have slightly improved since prior although detailed evaluation is limited given layering pleural effusions. vasculature appears less engorged. cardiac silhouette cannot be assessed. impression: mild to large bilateral, right greater than left pleural effusions. degree of pulmonary edema may have slightly improved since prior exam although detailed evaluation is limited. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s53282957
+View       : FRONTAL
+Actual     : start findings: heart size is difficult to assess given the presence of moderate to large bilateral pleural effusions, but appears at least moderately enlarged. the mediastinal contours are grossly unremarkable. perihilar haziness with vascular indistinctness and diffuse alveolar opacities are compatible with moderate pulmonary edema. bibasilar compressive atelectasis is demonstrated. no pneumothorax is seen. moderate multilevel degenerative changes are noted in the thoracic spine. impression: moderate pulmonary edema with moderate to large bilateral pleural effusions and bibasilar atelectasis. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s53836463
+View       : FRONTAL
+Actual     : start findings: the bilateral pleural effusions, lower lobe volume loss, and dense lower lobe opacity compatible with a combination of volume loss infiltrate effusion. the heart continues to be moderately enlarged. there is mild vascular redistribution. impression: chf, slightly worse than on the prior study. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s57641661
+View       : FRONTAL
+Actual     : start findings: frontal and lateral views of the chest. size of the bilateral effusions, left greater than right has slightly decreased in size since prior exam. there is less pulmonary vascular congestion on the current exam as well. cardiac silhouette which appears enlarged, is unchanged. no acute osseous abnormality is detected. impression: persistent small bilateral effusions, larger on the left which have decreased in size. decreased pulmonary vascular congestion. no evidence of superimposed acute cardiopulmonary process. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------
+Subject ID : 10003502
+Study ID   : s57641661
+View       : FRONTAL
+Actual     : start findings: frontal and lateral views of the chest. size of the bilateral effusions, left greater than right has slightly decreased in size since prior exam. there is less pulmonary vascular congestion on the current exam as well. cardiac silhouette which appears enlarged, is unchanged. no acute osseous abnormality is detected. impression: persistent small bilateral effusions, larger on the left which have decreased in size. decreased pulmonary vascular congestion. no evidence of superimposed acute cardiopulmonary process. end
+Generated  : findings: impression: as compared to the previous radiograph, the patient has received a nasogastric tube. the tip of the tube projects over the right ventricle. the course of the tube is unremarkable, the tip of the tube projects over the right atrium. no evidence of complications, notably no pneumothorax. unchanged appearance of the cardiac silhouette.
+-----------------------------------------------------------------

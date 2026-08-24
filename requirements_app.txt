@@ -1,0 +1,8 @@
+tensorflow
+numpy
+pandas
+opencv-python
+pillow
+streamlit
+nltk
+rouge-score
