@@ -21,8 +21,10 @@ args = parser.parse_args()
 # 1. CONFIGURATION & ISOLATED OUTPUT SETUP
 # ============================================================
 
-INPUT_CSV = "shenzhen_processed.csv"
-OUTPUT_DIR = "results_shenzhen"
+# scripts/training/ is 2 levels below project root
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+INPUT_CSV = os.path.join(PROJECT_DIR, 'datasets', 'shenzhen', 'shenzhen_processed.csv')
+OUTPUT_DIR = os.path.join(PROJECT_DIR, 'models', '04_cnn_transformer_shenzhen')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 IMAGE_SIZE = (224, 224)

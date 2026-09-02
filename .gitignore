@@ -1,34 +1,57 @@
-# Byte-compiled / optimized / DLL files
+# ==========================================
+# Python & Bytecode / Cache
+# ==========================================
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
 
+# ==========================================
 # Virtual Environments
+# ==========================================
 .venv/
 venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
-# Data files (Large CSVs and Datasets)
+# ==========================================
+# Large Data Files & Datasets
+# ==========================================
+datasets/
+images/
+official_data_iccv_final/
+processed_dataset_v1/
+data/
+raw_data/
+CHNCXR*
 *.csv
 *.zip
 *.tar.gz
-*.h5
-*.pkl
+*.tgz
+*.gz
+*.rar
+*.7z
 *.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.dcm
+*.nii
+*.nii.gz
 
-# IDE & Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Trained model weights (large binary files - exceed GitHub 100MB limit)
-# Only exclude weight files, not result text files
+# ==========================================
+# Trained Model Weights & Artifacts (>100MB limit)
+# ==========================================
+models/
+trained_models/
+offload/
+checkpoints/
 *.keras
 *.pt
 *.pth
@@ -37,13 +60,58 @@ Thumbs.db
 *.pb
 *.tflite
 *.safetensors
+*.ckpt
+*.model
+*.engine
 
-# Preprocessed image datasets (large image directories)
-processed_dataset_v1/preprocessed_images/
-
-# Large raw data directories
-processed_dataset_v1/raw_parsed_mappings.csv
-official_data_iccv_final/
-
-# Scratch / temporary files
+# ==========================================
+# Backup & Scratch Files
+# ==========================================
 scratch/
+backup*/
+*_backup/
+*_backup.py
+app_backup.py
+*.bak
+*.tmp
+*.temp
+*.log
+logs/
+
+# ==========================================
+# Test Outputs & Generated Images
+# ==========================================
+results_test/
+results_model/
+top5_trained_images/
+test_xray_preview.png
+xray*.jpg
+xray*.png
+sample_output*.png
+wandb/
+.tensorboard/
+runs/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.ipynb_checkpoints
+

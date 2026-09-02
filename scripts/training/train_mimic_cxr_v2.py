@@ -31,21 +31,21 @@ END_TOKEN = '<end>'
 PAD_TOKEN = '<pad>'
 UNK_TOKEN = '<unk>'
 
-PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(PROJECT_DIR, 'trained_models', 'mimic_cxr')
-CHECKPOINT_DIR = os.path.join(OUTPUT_DIR, 'checkpoints')
+# scripts/training/ is 2 levels below project root
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+OUTPUT_DIR = os.path.join(PROJECT_DIR, 'models', '01_efficientnetb0_mimic_v2')
+CHECKPOINT_DIR = OUTPUT_DIR  # checkpoints live in same folder
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 
-MODEL_SAVE_PATH = os.path.join(OUTPUT_DIR, 'mimic_cxr_v2_model.keras')
-BEST_MODEL_PATH = os.path.join(CHECKPOINT_DIR, 'best_model.keras')
-EPOCH_CHECKPOINT_PATTERN = os.path.join(CHECKPOINT_DIR, 'checkpoint_epoch_{epoch:02d}.keras')
-CHECKPOINT_SAVE_PATH = os.path.join(OUTPUT_DIR, 'mimic_cxr_v2_checkpoint.keras')
+MODEL_SAVE_PATH = os.path.join(OUTPUT_DIR, 'model.keras')
+BEST_MODEL_PATH = os.path.join(OUTPUT_DIR, 'best_model.keras')
+EPOCH_CHECKPOINT_PATTERN = os.path.join(OUTPUT_DIR, 'checkpoint_epoch_{epoch:02d}.keras')
+CHECKPOINT_SAVE_PATH = os.path.join(OUTPUT_DIR, 'checkpoint.keras')
 VOCAB_SAVE_PATH = os.path.join(OUTPUT_DIR, 'tokenizer_vocab.json')
-HISTORY_SAVE_PATH = os.path.join(OUTPUT_DIR, 'training_v2_history.csv')
-EVAL_SAVE_PATH = os.path.join(OUTPUT_DIR, 'sample_v2_predictions.txt')
+HISTORY_SAVE_PATH = os.path.join(OUTPUT_DIR, 'training_history.csv')
+EVAL_SAVE_PATH = os.path.join(OUTPUT_DIR, 'sample_predictions.txt')
 
-PROC_DIR = os.path.join(PROJECT_DIR, 'processed_dataset_v1')
+PROC_DIR = os.path.join(PROJECT_DIR, 'datasets', 'mimic_cxr', 'processed', 'processed_dataset_v1')
 PROC_TRAIN_CSV = os.path.join(PROC_DIR, 'train.csv')
 PROC_VAL_CSV = os.path.join(PROC_DIR, 'validation.csv')
 PROC_TEST_CSV = os.path.join(PROC_DIR, 'test.csv')

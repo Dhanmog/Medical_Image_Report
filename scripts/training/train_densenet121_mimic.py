@@ -3,7 +3,7 @@ import sys
 import json
 import re
 import argparse
-import numpy as np
+import numpy as np  
 import pandas as pd
 import cv2
 import tensorflow as tf
@@ -29,21 +29,16 @@ parser.add_argument("--lr", type=float, default=1e-4, help="Learning rate")
 parser.add_argument("--num-samples", type=int, default=4000, help="Number of training samples to use")
 args = parser.parse_args()
 
-PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(PROJECT_DIR, 'trained_models', 'densenet121_mimic')
+# scripts/training/ is 2 levels below project root
+PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+OUTPUT_DIR = os.path.join(PROJECT_DIR, 'models', '02_densenet121_mimic')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Also ensure results_shenzhen or app fallback dir exists for compatibility
-APP_RESULTS_DIR = os.path.join(PROJECT_DIR, 'results_shenzhen')
-os.makedirs(APP_RESULTS_DIR, exist_ok=True)
-
-MODEL_SAVE_PATH = os.path.join(OUTPUT_DIR, 'densenet121_mimic_model.keras')
-APP_MODEL_SAVE_PATH = os.path.join(APP_RESULTS_DIR, 'shenzhen_model.keras')
+MODEL_SAVE_PATH = os.path.join(OUTPUT_DIR, 'model.keras')
 VOCAB_SAVE_PATH = os.path.join(OUTPUT_DIR, 'tokenizer_vocab.json')
-APP_VOCAB_SAVE_PATH = os.path.join(APP_RESULTS_DIR, 'tokenizer_vocab.json')
 HISTORY_SAVE_PATH = os.path.join(OUTPUT_DIR, 'training_history.csv')
 
-PROC_DIR = os.path.join(PROJECT_DIR, 'processed_dataset_v1')
+PROC_DIR = os.path.join(PROJECT_DIR, 'datasets', 'mimic_cxr', 'processed', 'processed_dataset_v1')
 PROC_TRAIN_CSV = os.path.join(PROC_DIR, 'train.csv')
 PROC_VAL_CSV = os.path.join(PROC_DIR, 'validation.csv')
 

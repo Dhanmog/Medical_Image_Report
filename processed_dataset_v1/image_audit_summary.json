@@ -1,9 +1,0 @@
-{
-  "total_images_found": 261137,
-  "valid_images": 261137,
-  "corrupted_unreadable_images": 0,
-  "format_breakdown": {
-    ".jpg": 261137
-  },
-  "audit_time_seconds": 9.14
-}
