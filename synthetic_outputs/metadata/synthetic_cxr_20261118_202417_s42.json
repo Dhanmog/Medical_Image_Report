@@ -1,0 +1,54 @@
+{
+  "generation_id": "synthetic_cxr_20261118_202417_s42",
+  "timestamp": "2026-11-18T20:24:17.349460",
+  "model_id": "P-RAJIV/cxr_stable_diffusion_v1_5",
+  "model_revision": null,
+  "generation_parameters": {
+    "seed": 42,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.0,
+    "height": 512,
+    "width": 512,
+    "projection": "Frontal PA",
+    "duration_seconds": 14.62
+  },
+  "conditioning": {
+    "positive_prompt": "Frontal PA chest radiograph, showing mild right-sided cardiomegaly, mild right-sided pleural effusion, right-sided atelectasis, mild right-sided pulmonary edema, diagnostic quality, monochrome medical imaging, high contrast lungs and ribs",
+    "negative_prompt": "color, colorful, cartoon, drawing, illustration, blur, low quality, deformed anatomy, fractured ribs, non-chest image, text watermark, bad radiograph",
+    "source_report_summary": "FINDINGS:\nThe cardiac silhouette is mild enlarged (cardiomegaly). Mild pulmonary edema and vascular congestion are noted. Right-sided pleural effusion is present. Right-sided atelectatic changes are noted. Lung volumes are decreased. Pulmonary vascular congestion is present.\n\nIMPRESSION:\n1. Mild car",
+    "extracted_positive_findings": [
+      "cardiomegaly",
+      "pleural effusion",
+      "atelectasis",
+      "pulmonary edema"
+    ],
+    "extracted_negative_findings": [],
+    "laterality": {
+      "cardiomegaly": "right-sided",
+      "pleural effusion": "right-sided",
+      "atelectasis": "right-sided",
+      "pulmonary edema": "right-sided"
+    },
+    "severity": {
+      "cardiomegaly": "mild",
+      "pleural effusion": "mild",
+      "atelectasis": "unspecified",
+      "pulmonary edema": "mild"
+    },
+    "uncertainty": {
+      "cardiomegaly": false,
+      "pleural effusion": false,
+      "atelectasis": false,
+      "pulmonary edema": false
+    }
+  },
+  "technical_validation": {
+    "width": 512,
+    "height": 512,
+    "mean_intensity": 116.52,
+    "std_intensity": 55.45,
+    "is_degenerate": false
+  },
+  "safety_disclaimer": "SYNTHETIC AI-GENERATED IMAGE \u2014 FOR RESEARCH AND EDUCATIONAL USE ONLY. NOT AN AUTHENTIC PATIENT RADIOGRAPH. NOT FOR CLINICAL DIAGNOSIS OR TREATMENT.",
+  "is_synthetic": true
+}
