@@ -1,0 +1,300 @@
+{
+  "evaluation_title": "CHEST AI Phase 3 Quantitative Report Quality Benchmark",
+  "dataset_type": "Synthetic / Software Benchmark Reference Dataset (10 Test Cases)",
+  "disclaimer": "DISCLAIMER: Benchmark metrics generated on software reference cases for evaluation and documentation purposes. Requires expert clinical validation before diagnostic deployment.",
+  "cases_evaluated": 10,
+  "aggregate_metrics": {
+    "mean_precision": 0.7714,
+    "mean_recall": 0.85,
+    "mean_f1_score": 0.75,
+    "mean_negation_f1": 0.5667,
+    "mean_laterality_accuracy": 0.9,
+    "mean_device_accuracy": 0.95,
+    "mean_deduplication_efficiency": 0.0,
+    "total_hallucinations_detected": 0
+  },
+  "case_results": [
+    {
+      "case_id": "case_01",
+      "title": "Single View - Cardiomegaly & Pleural Effusion",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "negation_f1": 0.0,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "pleural effusion",
+        "cardiomegaly"
+      ],
+      "generated_findings": [
+        "pleural effusion",
+        "cardiomegaly"
+      ],
+      "generated_negatives": [],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_02",
+      "title": "Single View - Normal Unremarkable Chest Radiograph",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 0.0,
+        "recall": 1.0,
+        "f1_score": 0.0,
+        "negation_f1": 0.0,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [],
+      "generated_findings": [
+        "pleural effusion",
+        "pneumothorax"
+      ],
+      "generated_negatives": [
+        "consolidation"
+      ],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_03",
+      "title": "3-View Multi-Image - Congestive Heart Failure, Edema & Support Devices",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 0.7143,
+        "recall": 1.0,
+        "f1_score": 0.8333,
+        "negation_f1": 1.0,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "atelectasis",
+        "pulmonary vascular congestion",
+        "pleural effusion",
+        "pulmonary edema",
+        "cardiomegaly"
+      ],
+      "generated_findings": [
+        "atelectasis",
+        "sternal wires",
+        "pulmonary vascular congestion",
+        "pleural effusion",
+        "pulmonary edema",
+        "cardiomegaly",
+        "pacemaker"
+      ],
+      "generated_negatives": [
+        "pneumonia"
+      ],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_04",
+      "title": "2-View Multi-Image - Interval Extubation & Right Chest Tube",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "negation_f1": 0.0,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "chest tube",
+        "decreased lung volumes",
+        "interval extubation"
+      ],
+      "generated_findings": [
+        "chest tube",
+        "decreased lung volumes",
+        "interval extubation"
+      ],
+      "generated_negatives": [],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_05",
+      "title": "Single View - Borderline Cardiac Silhouette",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "negation_f1": 0.0,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "borderline cardiac size"
+      ],
+      "generated_findings": [],
+      "generated_negatives": [],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_06",
+      "title": "2-View Multi-Image - Bilateral Atelectasis & Pleural Effusion",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6667,
+        "negation_f1": 1.0,
+        "laterality_accuracy": 0.5,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "atelectasis",
+        "pleural effusion"
+      ],
+      "generated_findings": [
+        "pleural effusion"
+      ],
+      "generated_negatives": [],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_07",
+      "title": "Single View - Pneumonia Explicit Negative Preservation",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "negation_f1": 0.6667,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [],
+      "generated_findings": [],
+      "generated_negatives": [
+        "pneumonia"
+      ],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_08",
+      "title": "Multi-View - Left Subclavian Line & Right Chest Tube Laterality",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "negation_f1": 1.0,
+        "laterality_accuracy": 0.5,
+        "device_score": 0.5,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "chest tube",
+        "central line"
+      ],
+      "generated_findings": [
+        "chest tube",
+        "central line"
+      ],
+      "generated_negatives": [],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_09",
+      "title": "Single View - Mild Pulmonary Edema & Congestion",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "negation_f1": 1.0,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "pulmonary edema",
+        "pulmonary vascular congestion"
+      ],
+      "generated_findings": [
+        "pulmonary edema",
+        "pulmonary vascular congestion"
+      ],
+      "generated_negatives": [],
+      "hallucinations_detected": []
+    },
+    {
+      "case_id": "case_10",
+      "title": "3-View Multi-Image - Deduplication of Sternal Wires & Pacemaker Across Views",
+      "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+      "engine_used": "Local BioBERT NLP Engine (Offline)",
+      "is_llm_active": false,
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "negation_f1": 1.0,
+        "laterality_accuracy": 1.0,
+        "device_score": 1.0,
+        "hallucination_count": 0,
+        "is_hallucinating": false,
+        "deduplication_ratio": 0.0
+      },
+      "ground_truth_findings": [
+        "sternal wires",
+        "pacemaker"
+      ],
+      "generated_findings": [
+        "sternal wires",
+        "pacemaker"
+      ],
+      "generated_negatives": [],
+      "hallucinations_detected": []
+    }
+  ]
+}

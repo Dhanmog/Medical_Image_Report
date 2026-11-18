@@ -1,0 +1,179 @@
+[
+  {
+    "id": "case_01",
+    "title": "Single View - Cardiomegaly & Pleural Effusion",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 1,
+    "raw_transformer_report": "cardiomegaly is present. fluid around the lungs.",
+    "densenet_predictions": {
+      "Cardiomegaly": 0.89,
+      "Pleural Effusion": 0.76,
+      "Pneumonia": 0.04
+    },
+    "ground_truth_findings": ["cardiomegaly", "pleural effusion"],
+    "ground_truth_negatives": ["pneumonia"],
+    "expected_laterality": {},
+    "expected_devices": [],
+    "expected_severity": {}
+  },
+  {
+    "id": "case_02",
+    "title": "Single View - Normal Unremarkable Chest Radiograph",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 1,
+    "raw_transformer_report": "the chest radiograph is unremarkable. no acute cardiopulmonary process.",
+    "densenet_predictions": {
+      "Cardiomegaly": 0.05,
+      "Pleural Effusion": 0.02,
+      "Pneumonia": 0.01
+    },
+    "ground_truth_findings": [],
+    "ground_truth_negatives": ["cardiomegaly", "pleural effusion", "pneumonia"],
+    "expected_laterality": {},
+    "expected_devices": [],
+    "expected_severity": {}
+  },
+  {
+    "id": "case_03",
+    "title": "3-View Multi-Image - Congestive Heart Failure, Edema & Support Devices",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 3,
+    "raw_transformer_report": "View 1 (AP): cardiomegaly. pulmonary vascular congestion. left pectoral pacemaker.\nView 2 (PA): mild-to-moderate pulmonary edema. bilateral pleural effusions. intact sternal wires.\nView 3 (Lateral): bibasilar compressive atelectasis. left pectoral pacemaker. intact sternal wires. no focal pneumonia.",
+    "densenet_predictions": {
+      "Cardiomegaly": 0.92,
+      "Edema": 0.81,
+      "Pleural Effusion": 0.85,
+      "Atelectasis": 0.70,
+      "Pneumonia": 0.03
+    },
+    "ground_truth_findings": ["cardiomegaly", "pulmonary vascular congestion", "pulmonary edema", "pleural effusion", "atelectasis"],
+    "ground_truth_negatives": ["pneumonia"],
+    "expected_laterality": {
+      "pacemaker": "left",
+      "effusion": "bilateral",
+      "atelectasis": "bilateral"
+    },
+    "expected_devices": ["left pectoral pacemaker", "sternal wires"],
+    "expected_severity": {
+      "edema": "mild-to-moderate"
+    }
+  },
+  {
+    "id": "case_04",
+    "title": "2-View Multi-Image - Interval Extubation & Right Chest Tube",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 2,
+    "raw_transformer_report": "View 1: patient is extubated since prior exam. right chest tube is present.\nView 2: right chest tube remains in position. lung volumes are decreased.",
+    "densenet_predictions": {
+      "Effusion": 0.25,
+      "Pneumothorax": 0.08
+    },
+    "ground_truth_findings": ["interval extubation", "chest tube", "decreased lung volumes"],
+    "ground_truth_negatives": ["pneumothorax"],
+    "expected_laterality": {
+      "chest tube": "right"
+    },
+    "expected_devices": ["chest tube"],
+    "expected_severity": {}
+  },
+  {
+    "id": "case_05",
+    "title": "Single View - Borderline Cardiac Silhouette",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 1,
+    "raw_transformer_report": "cardiac silhouette is at the upper limit of normal. no overt cardiomegaly.",
+    "densenet_predictions": {
+      "Cardiomegaly": 0.48
+    },
+    "ground_truth_findings": ["borderline cardiac size"],
+    "ground_truth_negatives": ["cardiomegaly"],
+    "expected_laterality": {},
+    "expected_devices": [],
+    "expected_severity": {
+      "cardiac size": "borderline"
+    }
+  },
+  {
+    "id": "case_06",
+    "title": "2-View Multi-Image - Bilateral Atelectasis & Pleural Effusion",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 2,
+    "raw_transformer_report": "View 1: small areas of partial lung collapse at the bases.\nView 2: fluid around both lungs.",
+    "densenet_predictions": {
+      "Atelectasis": 0.64,
+      "Pleural Effusion": 0.68
+    },
+    "ground_truth_findings": ["atelectasis", "pleural effusion"],
+    "ground_truth_negatives": [],
+    "expected_laterality": {
+      "atelectasis": "bilateral",
+      "effusion": "bilateral"
+    },
+    "expected_devices": [],
+    "expected_severity": {}
+  },
+  {
+    "id": "case_07",
+    "title": "Single View - Pneumonia Explicit Negative Preservation",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 1,
+    "raw_transformer_report": "lungs are clear. no evidence of acute focal pneumonia.",
+    "densenet_predictions": {
+      "Pneumonia": 0.02,
+      "Consolidation": 0.03
+    },
+    "ground_truth_findings": [],
+    "ground_truth_negatives": ["pneumonia", "consolidation"],
+    "expected_laterality": {},
+    "expected_devices": [],
+    "expected_severity": {}
+  },
+  {
+    "id": "case_08",
+    "title": "Multi-View - Left Subclavian Line & Right Chest Tube Laterality",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 2,
+    "raw_transformer_report": "View 1: left subclavian central venous line in place.\nView 2: right chest tube present.",
+    "densenet_predictions": {},
+    "ground_truth_findings": ["central line", "chest tube"],
+    "ground_truth_negatives": [],
+    "expected_laterality": {
+      "central line": "left",
+      "chest tube": "right"
+    },
+    "expected_devices": ["left subclavian central line", "right chest tube"],
+    "expected_severity": {}
+  },
+  {
+    "id": "case_09",
+    "title": "Single View - Mild Pulmonary Edema & Congestion",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 1,
+    "raw_transformer_report": "mild pulmonary vascular congestion and mild pulmonary edema.",
+    "densenet_predictions": {
+      "Edema": 0.58
+    },
+    "ground_truth_findings": ["pulmonary vascular congestion", "pulmonary edema"],
+    "ground_truth_negatives": [],
+    "expected_laterality": {},
+    "expected_devices": [],
+    "expected_severity": {
+      "edema": "mild"
+    }
+  },
+  {
+    "id": "case_10",
+    "title": "3-View Multi-Image - Deduplication of Sternal Wires & Pacemaker Across Views",
+    "dataset_type": "Synthetic Benchmark Reference Case (Software Evaluation)",
+    "views_count": 3,
+    "raw_transformer_report": "View 1: intact median sternotomy wires. left pectoral pacemaker.\nView 2: intact median sternotomy wires. left pectoral pacemaker.\nView 3: intact median sternotomy wires. left pectoral pacemaker.",
+    "densenet_predictions": {},
+    "ground_truth_findings": ["sternal wires", "pacemaker"],
+    "ground_truth_negatives": [],
+    "expected_laterality": {
+      "pacemaker": "left"
+    },
+    "expected_devices": ["sternal wires", "left pectoral pacemaker"],
+    "expected_severity": {}
+  }
+]

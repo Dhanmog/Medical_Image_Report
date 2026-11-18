@@ -1,0 +1,58 @@
+{
+  "generation_id": "synthetic_cxr_20261113_104320_s42",
+  "timestamp": "2026-11-13T10:43:20.884268",
+  "model_id": "P-RAJIV/cxr_stable_diffusion_v1_5",
+  "model_revision": null,
+  "generation_parameters": {
+    "seed": 42,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.0,
+    "height": 512,
+    "width": 512,
+    "projection": "Frontal PA",
+    "duration_seconds": 15.4
+  },
+  "conditioning": {
+    "positive_prompt": "Frontal PA chest radiograph, showing cardiomegaly, pleural effusion, pneumonia, pulmonary edema, lung opacity, diagnostic quality, monochrome medical imaging, high contrast lungs and ribs",
+    "negative_prompt": "color, colorful, cartoon, drawing, illustration, blur, low quality, deformed anatomy, fractured ribs, non-chest image, text watermark, bad radiograph",
+    "source_report_summary": "FINDINGS:\nThe cardiac silhouette is enlarged (cardiomegaly). Pleural effusion is present. Focal consolidation/opacity is present, concerning for pneumonia. No edema, or pulmonary vascular congestion is identified.\n\nIMPRESSION:\n1. Cardiomegaly.\n2. Pleural effusion.\n3. Focal consolidation, concerning ",
+    "extracted_positive_findings": [
+      "cardiomegaly",
+      "pleural effusion",
+      "pneumonia",
+      "pulmonary edema",
+      "lung opacity"
+    ],
+    "extracted_negative_findings": [],
+    "laterality": {
+      "cardiomegaly": "unspecified",
+      "pleural effusion": "unspecified",
+      "pneumonia": "unspecified",
+      "pulmonary edema": "unspecified",
+      "lung opacity": "unspecified"
+    },
+    "severity": {
+      "cardiomegaly": "unspecified",
+      "pleural effusion": "unspecified",
+      "pneumonia": "unspecified",
+      "pulmonary edema": "unspecified",
+      "lung opacity": "unspecified"
+    },
+    "uncertainty": {
+      "cardiomegaly": false,
+      "pleural effusion": false,
+      "pneumonia": false,
+      "pulmonary edema": false,
+      "lung opacity": false
+    }
+  },
+  "technical_validation": {
+    "width": 512,
+    "height": 512,
+    "mean_intensity": 116.29,
+    "std_intensity": 55.84,
+    "is_degenerate": false
+  },
+  "safety_disclaimer": "SYNTHETIC AI-GENERATED IMAGE \u2014 FOR RESEARCH AND EDUCATIONAL USE ONLY. NOT AN AUTHENTIC PATIENT RADIOGRAPH. NOT FOR CLINICAL DIAGNOSIS OR TREATMENT.",
+  "is_synthetic": true
+}

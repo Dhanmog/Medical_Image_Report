@@ -1,0 +1,56 @@
+{
+  "generation_id": "synthetic_cxr_20261023_090835_s42",
+  "timestamp": "2026-10-23T09:08:35.561960",
+  "model_id": "P-RAJIV/cxr_stable_diffusion_v1_5",
+  "model_revision": null,
+  "generation_parameters": {
+    "seed": 42,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.0,
+    "height": 512,
+    "width": 512,
+    "projection": "Frontal PA",
+    "duration_seconds": 14.89
+  },
+  "conditioning": {
+    "positive_prompt": "Frontal PA chest radiograph, showing possible mild left-sided cardiomegaly, mild left-sided pleural effusion, mild left-sided pneumonia, mild left-sided pulmonary edema, diagnostic quality, monochrome medical imaging, high contrast lungs and ribs",
+    "negative_prompt": "color, colorful, cartoon, drawing, illustration, blur, low quality, deformed anatomy, fractured ribs, non-chest image, text watermark, bad radiograph, pneumothorax",
+    "source_report_summary": "FINDINGS: The lungs show mild left-sided pleural effusion. No pneumothorax, pulmonary edema, or focal consolidation. The cardiac silhouette is mildly enlarged.\n\nIMPRESSION: 1. Mild left pleural effusion. 2. Borderline cardiomegaly.",
+    "extracted_positive_findings": [
+      "cardiomegaly",
+      "pleural effusion",
+      "pneumonia",
+      "pulmonary edema"
+    ],
+    "extracted_negative_findings": [
+      "pneumothorax"
+    ],
+    "laterality": {
+      "cardiomegaly": "left-sided",
+      "pleural effusion": "left-sided",
+      "pneumonia": "left-sided",
+      "pulmonary edema": "left-sided"
+    },
+    "severity": {
+      "cardiomegaly": "mild",
+      "pleural effusion": "mild",
+      "pneumonia": "mild",
+      "pulmonary edema": "mild"
+    },
+    "uncertainty": {
+      "cardiomegaly": true,
+      "pleural effusion": false,
+      "pneumonia": false,
+      "pulmonary edema": false
+    }
+  },
+  "technical_validation": {
+    "width": 512,
+    "height": 512,
+    "mean_intensity": 116.78,
+    "std_intensity": 53.92,
+    "is_degenerate": false
+  },
+  "safety_disclaimer": "SYNTHETIC AI-GENERATED IMAGE \u2014 FOR RESEARCH AND EDUCATIONAL USE ONLY. NOT AN AUTHENTIC PATIENT RADIOGRAPH. NOT FOR CLINICAL DIAGNOSIS OR TREATMENT.",
+  "is_synthetic": true
+}

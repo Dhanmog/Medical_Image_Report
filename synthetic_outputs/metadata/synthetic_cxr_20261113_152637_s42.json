@@ -1,0 +1,56 @@
+{
+  "generation_id": "synthetic_cxr_20261113_152637_s42",
+  "timestamp": "2026-11-13T15:26:37.283784",
+  "model_id": "P-RAJIV/cxr_stable_diffusion_v1_5",
+  "model_revision": null,
+  "generation_parameters": {
+    "seed": 42,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.0,
+    "height": 512,
+    "width": 512,
+    "projection": "Frontal PA",
+    "duration_seconds": 22.16
+  },
+  "conditioning": {
+    "positive_prompt": "Frontal PA chest radiograph, showing moderate left-sided cardiomegaly, moderate left-sided pneumothorax, moderate left-sided pulmonary edema, moderate left-sided support devices, diagnostic quality, monochrome medical imaging, high contrast lungs and ribs",
+    "negative_prompt": "color, colorful, cartoon, drawing, illustration, blur, low quality, deformed anatomy, fractured ribs, non-chest image, text watermark, bad radiograph, pleural effusion",
+    "source_report_summary": "FINDINGS:\nLeft pectoral pacemaker is present with constant, stable positioning of pacemaker leads. Venous catheter tip is noted projecting over the svc. Moderate cardiomegaly is noted. No pleural effusion, edema, pneumothorax, or pulmonary edema is identified.\n\nIMPRESSION:\n1. Densenet visual feature",
+    "extracted_positive_findings": [
+      "cardiomegaly",
+      "pneumothorax",
+      "pulmonary edema",
+      "support devices"
+    ],
+    "extracted_negative_findings": [
+      "pleural effusion"
+    ],
+    "laterality": {
+      "cardiomegaly": "left-sided",
+      "pneumothorax": "left-sided",
+      "pulmonary edema": "left-sided",
+      "support devices": "left-sided"
+    },
+    "severity": {
+      "cardiomegaly": "moderate",
+      "pneumothorax": "moderate",
+      "pulmonary edema": "moderate",
+      "support devices": "moderate"
+    },
+    "uncertainty": {
+      "cardiomegaly": false,
+      "pneumothorax": false,
+      "pulmonary edema": false,
+      "support devices": false
+    }
+  },
+  "technical_validation": {
+    "width": 512,
+    "height": 512,
+    "mean_intensity": 117.44,
+    "std_intensity": 54.2,
+    "is_degenerate": false
+  },
+  "safety_disclaimer": "SYNTHETIC AI-GENERATED IMAGE \u2014 FOR RESEARCH AND EDUCATIONAL USE ONLY. NOT AN AUTHENTIC PATIENT RADIOGRAPH. NOT FOR CLINICAL DIAGNOSIS OR TREATMENT.",
+  "is_synthetic": true
+}

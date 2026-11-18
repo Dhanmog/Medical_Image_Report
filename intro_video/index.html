@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Intro Video Presentation | Chest X-Ray Diagnostic Generator V3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Canvas Background & Particles -->
+  <canvas id="bg-canvas"></canvas>
+  
+  <!-- Cyber Scanline Overlay -->
+  <div class="scanlines"></div>
+
+  <!-- App Wrapper -->
+  <div class="app-container">
+    
+    <!-- Top HUD Header -->
+    <header class="hud-header">
+      <div class="brand">
+        <div class="pulsing-dot"></div>
+        <span class="brand-title">MED-AI VISION LABS</span>
+        <span class="badge">MAJOR PROJECT DEMO</span>
+      </div>
+      <div class="project-info">
+        <span class="project-title">CHEST X-RAY DIAGNOSTIC REPORT GENERATOR V3</span>
+      </div>
+      <div class="hud-status">
+        <div class="status-item">
+          <span class="label">MODEL:</span>
+          <span class="val text-cyan">DenseNet121 + ST-Decoder</span>
+        </div>
+        <div class="status-item">
+          <span class="label">STATUS:</span>
+          <span class="val text-green" id="system-status">READY FOR PLAYBACK</span>
+        </div>
+        <div class="status-item timer">
+          <span id="elapsed-time">00:00</span> / <span id="total-time">02:30</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Player Stage -->
+    <main class="player-stage">
+      
+      <!-- Video / Slide Screen Container -->
+      <div class="screen-viewport" id="screen-viewport">
+        
+        <!-- Recording Indicator -->
+        <div id="recording-badge" class="recording-badge hidden">
+          <span class="rec-dot"></span> REC <span id="rec-timer">00:00</span>
+        </div>
+
+        <!-- Dynamic Holographic HUD Frame -->
+        <div class="hud-frame">
+          <div class="corner top-left"></div>
+          <div class="corner top-right"></div>
+          <div class="corner bottom-left"></div>
+          <div class="corner bottom-right"></div>
+          <div class="radar-line"></div>
+        </div>
+
+        <!-- Slide Slides Container -->
+        <div class="slides-container" id="slides-container">
+          
+          <!-- Slide 1: Title & Hero -->
+          <div class="slide active" data-slide="0" data-duration="18">
+            <div class="slide-content layout-split">
+              <div class="slide-text">
+                <div class="kicker"><span class="icon">⚡</span> MAJOR PROJECT PRESENTATION</div>
+                <h1 class="slide-title">Chest X-Ray Diagnostic <br><span class="gradient-text">Report Generator V3</span></h1>
+                <p class="slide-subtitle">An End-to-End Autonomous AI Radiology Pipeline featuring DenseNet121, Spatial Transformers & Autoregressive Multi-Task Learning.</p>
+                <div class="key-tags">
+                  <span class="tag">TensorFlow / Keras 3</span>
+                  <span class="tag">MIMIC-CXR Pretrained</span>
+                  <span class="tag">14-Disease Multi-Task</span>
+                  <span class="tag">Streamlit UI</span>
+                </div>
+              </div>
+              <div class="slide-visual">
+                <div class="image-wrapper glow-cyan">
+                  <img src="assets/hero.jpg" alt="AI Radiology Scanning System">
+                  <div class="hud-overlay-tag">SYS_ID: MIMIC-V3-HEALTH</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2: The Diagnostic Challenge -->
+          <div class="slide" data-slide="1" data-duration="20">
+            <div class="slide-content layout-split">
+              <div class="slide-text">
+                <div class="kicker"><span class="icon">⚠️</span> THE CLINICAL CHALLENGE</div>
+                <h2 class="slide-title">Eliminating Radiology <br><span class="gradient-text-pink">Report Bottlenecks</span></h2>
+                <p class="slide-subtitle">Global healthcare systems face critical shortages of specialized radiologists. Manual reporting leads to diagnostic delays and high clinical cognitive load.</p>
+                <div class="metric-cards">
+                  <div class="metric-card">
+                    <span class="metric-num text-magenta">4.7B+</span>
+                    <span class="metric-label">X-rays Scanned Annually Worldwide</span>
+                  </div>
+                  <div class="metric-card">
+                    <span class="metric-num text-cyan">85%</span>
+                    <span class="metric-label">Time Saved with Automated AI Draft Reports</span>
+                  </div>
+                </div>
+              </div>
+              <div class="slide-visual">
+                <div class="problem-graphic-box">
+                  <div class="scan-grid"></div>
+                  <div class="floating-stat stat-1">
+                    <span class="stat-title">Unstructured Impression Data</span>
+                    <span class="stat-val">100,000+ MIMIC-CXR Reports</span>
+                  </div>
+                  <div class="floating-stat stat-2">
+                    <span class="stat-title">Target Pathologies</span>
+                    <span class="stat-val">14 CheXpert Diseases</span>
+                  </div>
+                  <div class="floating-stat stat-3">
+                    <span class="stat-title">Goal</span>
+                    <span class="stat-val">Instant Autoregressive Text Synthesis</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3: Model Architecture -->
+          <div class="slide" data-slide="2" data-duration="24">
+            <div class="slide-content layout-split">
+              <div class="slide-text">
+                <div class="kicker"><span class="icon">🔬</span> DEEP LEARNING ARCHITECTURE</div>
+                <h2 class="slide-title">DenseNet121 + <br><span class="gradient-text">Spatial Transformer</span></h2>
+                <p class="slide-subtitle">Replacing global pooling with a 2D Spatial Transformer preserves raw $7\times 7$ grid visual feature tokens with 2D positional embeddings.</p>
+                <ul class="feature-list">
+                  <li><span class="bullet">✦</span> <strong>Visual Backbone:</strong> DenseNet121 pre-trained on MIMIC-CXR visual tokens.</li>
+                  <li><span class="bullet">✦</span> <strong>Spatial Transformer:</strong> Preserves spatial patch positions without feature loss.</li>
+                  <li><span class="bullet">✦</span> <strong>Cross-Attention Decoder:</strong> Multi-head self-attention & cross-attention text generator.</li>
+                </ul>
+              </div>
+              <div class="slide-visual">
+                <div class="image-wrapper glow-purple">
+                  <img src="assets/architecture.jpg" alt="Model Architecture Flow">
+                  <div class="hud-overlay-tag">ARCH: SPATIAL-CROSS-ATTN-V3</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4: Multi-Task Learning & Dual Heads -->
+          <div class="slide" data-slide="3" data-duration="22">
+            <div class="slide-content">
+              <div class="slide-header">
+                <div class="kicker"><span class="icon">🎯</span> MULTI-TASK DUAL-HEAD LEARNING</div>
+                <h2 class="slide-title">Joint Pathology Classification & Text Synthesis</h2>
+              </div>
+              <div class="dual-head-grid">
+                <div class="head-card card-cyan">
+                  <div class="card-icon">📝</div>
+                  <h3>Autoregressive Text Decoder Head</h3>
+                  <p>Generates detailed clinical impression tokens word-by-word with configurable Beam Search decoding (Width 1-5) and length normalization.</p>
+                  <div class="card-pills">
+                    <span>BLEU-1..4</span>
+                    <span>ROUGE-L</span>
+                    <span>Beam Width 1-5</span>
+                  </div>
+                </div>
+                <div class="head-card card-purple">
+                  <div class="card-icon">🩺</div>
+                  <h3>14 CheXpert Classification Head</h3>
+                  <p>Predicts multi-label probabilities across 14 major thoracic pathologies (Atelectasis, Cardiomegaly, Pleural Effusion, Pneumothorax, etc.).</p>
+                  <div class="card-pills">
+                    <span>Multi-Label F1</span>
+                    <span>Sigmoid Loss</span>
+                    <span>Shared Feature Space</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5: 3-Phase Resumable Training & Metrics -->
+          <div class="slide" data-slide="4" data-duration="22">
+            <div class="slide-content">
+              <div class="slide-header">
+                <div class="kicker"><span class="icon">📊</span> TRAINING & PERFORMANCE EVALUATION</div>
+                <h2 class="slide-title">3-Phase Progressive Training & Benchmarks</h2>
+              </div>
+              <div class="training-grid">
+                <div class="phase-step">
+                  <div class="step-num">01</div>
+                  <h4>Phase 1: Warmup</h4>
+                  <p>Frozen visual backbone, training initial cross-attention decoder layers.</p>
+                </div>
+                <div class="phase-step">
+                  <div class="step-num">02</div>
+                  <h4>Phase 2: Fine-Tuning</h4>
+                  <p>Unfreezing top 80 DenseNet backbone layers with reduced learning rate.</p>
+                </div>
+                <div class="phase-step">
+                  <div class="step-num">03</div>
+                  <h4>Phase 3: End-to-End</h4>
+                  <p>Full joint fine-tuning of visual backbone, spatial transformer, and dual heads.</p>
+                </div>
+              </div>
+              <div class="metrics-bar">
+                <div class="metric-pill">
+                  <span class="m-val">Resumable</span>
+                  <span class="m-lbl">State Checkpoints</span>
+                </div>
+                <div class="metric-pill">
+                  <span class="m-val">Beam Search</span>
+                  <span class="m-lbl">Repetition Prevention</span>
+                </div>
+                <div class="metric-pill">
+                  <span class="m-val">Clinical F1</span>
+                  <span class="m-lbl">Multi-Disease Precision</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6: Streamlit Web Dashboard & Conclusion -->
+          <div class="slide" data-slide="5" data-duration="20">
+            <div class="slide-content layout-split">
+              <div class="slide-text">
+                <div class="kicker"><span class="icon">🚀</span> INTERACTIVE WEB APP & IMPACT</div>
+                <h2 class="slide-title">Unified Streamlit <br><span class="gradient-text">Radiology Dashboard</span></h2>
+                <p class="slide-subtitle">Radiologists and clinicians can interactively drag-and-drop chest X-rays, toggle Greedy vs Beam Search, inspect predicted pathologies, and synthesize full reports in real-time.</p>
+                <div class="action-badges">
+                  <span class="badge-big text-cyan">⚡ Real-time Inference</span>
+                  <span class="badge-big text-green">✅ Clinical Decision Support</span>
+                </div>
+              </div>
+              <div class="slide-visual">
+                <div class="app-preview-card">
+                  <div class="preview-header">
+                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    <span class="app-url">http://localhost:8501 (Streamlit UI)</span>
+                  </div>
+                  <div class="preview-body">
+                    <div class="mock-xray">
+                      <div class="mock-grid"></div>
+                      <div class="mock-scan-text">X-RAY ANALYSIS IN PROGRESS</div>
+                    </div>
+                    <div class="mock-report">
+                      <div class="report-line header">CLINICAL IMPRESSION:</div>
+                      <div class="report-line">1. Cardiomegaly with mild pulmonary vascular congestion.</div>
+                      <div class="report-line">2. Small left pleural effusion noted. No focal consolidation.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Teleprompter / Narration Subtitle Box -->
+        <div class="teleprompter-bar">
+          <div class="narration-indicator">
+            <span class="voice-wave"></span>
+            <span class="narration-label">AI NARRATOR:</span>
+          </div>
+          <div class="teleprompter-text" id="teleprompter-text">
+            Welcome to the presentation of our Major Project: Chest X-Ray Diagnostic Report Generator V3.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Control Center Sidebar / Modal Toggle -->
+      <aside class="control-panel">
+        <h3 class="panel-heading">VIDEO CONTROLS</h3>
+        
+        <!-- Primary Action Buttons -->
+        <div class="control-group">
+          <button id="btn-play-pause" class="btn btn-primary">
+            <span class="btn-icon">▶</span> <span id="play-btn-text">PLAY VIDEO</span>
+          </button>
+          <button id="btn-record" class="btn btn-record">
+            <span class="btn-icon">⏺</span> <span id="rec-btn-text">RECORD VIDEO (.WEBM)</span>
+          </button>
+        </div>
+
+        <!-- Timeline / Slide Navigation -->
+        <div class="control-group">
+          <label class="control-label">TIMELINE PROGRESS</label>
+          <div class="progress-bar-container" id="progress-bar-container">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+        </div>
+
+        <!-- Slide Thumbnails -->
+        <div class="control-group">
+          <label class="control-label">SCENES</label>
+          <div class="slide-thumbnails" id="slide-thumbnails">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Settings -->
+        <div class="control-group settings-grid">
+          <div class="setting-item">
+            <label>AI VOICE</label>
+            <button id="toggle-voice" class="btn-toggle active">ON</button>
+          </div>
+          <div class="setting-item">
+            <label>SOUND FX</label>
+            <button id="toggle-sfx" class="btn-toggle active">ON</button>
+          </div>
+          <div class="setting-item">
+            <label>VOICE SPEED</label>
+            <select id="voice-rate" class="select-input">
+              <option value="1">1.0x</option>
+              <option value="1.15" selected>1.15x</option>
+              <option value="1.3">1.3x</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Script Editor Trigger -->
+        <div class="control-group">
+          <button id="btn-open-script" class="btn btn-secondary">
+            📜 VIEW / EDIT VOICE SCRIPT
+          </button>
+        </div>
+      </aside>
+
+    </main>
+  </div>
+
+  <!-- Script Modal -->
+  <div id="script-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>PRESENTATION NARRATION SCRIPT</h3>
+        <button id="btn-close-script" class="btn-close">&times;</button>
+      </div>
+      <div class="modal-body" id="script-editor-container">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="modal-footer">
+        <button id="btn-save-script" class="btn btn-primary">SAVE SCRIPT & REFRESH</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

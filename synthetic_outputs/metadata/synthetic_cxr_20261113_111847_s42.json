@@ -1,0 +1,48 @@
+{
+  "generation_id": "synthetic_cxr_20261113_111847_s42",
+  "timestamp": "2026-11-13T11:18:47.196395",
+  "model_id": "P-RAJIV/cxr_stable_diffusion_v1_5",
+  "model_revision": null,
+  "generation_parameters": {
+    "seed": 42,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.0,
+    "height": 512,
+    "width": 512,
+    "projection": "Frontal PA",
+    "duration_seconds": 22.49
+  },
+  "conditioning": {
+    "positive_prompt": "Frontal PA chest radiograph, showing cardiomegaly, pulmonary edema, diagnostic quality, monochrome medical imaging, high contrast lungs and ribs",
+    "negative_prompt": "color, colorful, cartoon, drawing, illustration, blur, low quality, deformed anatomy, fractured ribs, non-chest image, text watermark, bad radiograph, pleural effusion",
+    "source_report_summary": "FINDINGS:\nThe cardiac silhouette is enlarged (cardiomegaly). Lung volumes are decreased. No pleural effusion, edema, pulmonary vascular congestion, or pulmonary edema is identified.\n\nIMPRESSION:\n1. Cardiomegaly.\n2. Densenet visual features indicate high suspicion for effusion (86% confidence); clini",
+    "extracted_positive_findings": [
+      "cardiomegaly",
+      "pulmonary edema"
+    ],
+    "extracted_negative_findings": [
+      "pleural effusion"
+    ],
+    "laterality": {
+      "cardiomegaly": "unspecified",
+      "pulmonary edema": "unspecified"
+    },
+    "severity": {
+      "cardiomegaly": "unspecified",
+      "pulmonary edema": "unspecified"
+    },
+    "uncertainty": {
+      "cardiomegaly": false,
+      "pulmonary edema": false
+    }
+  },
+  "technical_validation": {
+    "width": 512,
+    "height": 512,
+    "mean_intensity": 114.29,
+    "std_intensity": 50.45,
+    "is_degenerate": false
+  },
+  "safety_disclaimer": "SYNTHETIC AI-GENERATED IMAGE \u2014 FOR RESEARCH AND EDUCATIONAL USE ONLY. NOT AN AUTHENTIC PATIENT RADIOGRAPH. NOT FOR CLINICAL DIAGNOSIS OR TREATMENT.",
+  "is_synthetic": true
+}

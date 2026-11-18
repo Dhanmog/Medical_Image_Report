@@ -1,0 +1,36 @@
+{
+  "generation_id": "synthetic_cxr_20261029_131204_s42",
+  "timestamp": "2026-10-29T13:12:04.890571",
+  "model_id": "P-RAJIV/cxr_stable_diffusion_v1_5",
+  "model_revision": null,
+  "generation_parameters": {
+    "seed": 42,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.0,
+    "height": 512,
+    "width": 512,
+    "projection": "Frontal PA",
+    "duration_seconds": 15548.56
+  },
+  "conditioning": {
+    "positive_prompt": "Frontal PA chest radiograph, Normal chest X-ray, clear lungs, normal cardiomediastinal silhouette, no acute findings, diagnostic quality, monochrome medical imaging, high contrast lungs and ribs",
+    "negative_prompt": "color, colorful, cartoon, drawing, illustration, blur, low quality, deformed anatomy, fractured ribs, non-chest image, text watermark, bad radiograph, pneumothorax",
+    "source_report_summary": "FINDINGS:\nNo pneumothorax is identified.\n\nIMPRESSION:\n1. Densenet visual features indicate high suspicion for effusion (85% confidence); clinical correlation recommended.\n2. No acute pneumothorax.",
+    "extracted_positive_findings": [],
+    "extracted_negative_findings": [
+      "pneumothorax"
+    ],
+    "laterality": {},
+    "severity": {},
+    "uncertainty": {}
+  },
+  "technical_validation": {
+    "width": 512,
+    "height": 512,
+    "mean_intensity": 117.21,
+    "std_intensity": 51.43,
+    "is_degenerate": false
+  },
+  "safety_disclaimer": "SYNTHETIC AI-GENERATED IMAGE \u2014 FOR RESEARCH AND EDUCATIONAL USE ONLY. NOT AN AUTHENTIC PATIENT RADIOGRAPH. NOT FOR CLINICAL DIAGNOSIS OR TREATMENT.",
+  "is_synthetic": true
+}

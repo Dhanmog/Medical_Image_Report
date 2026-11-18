@@ -1,0 +1,62 @@
+{
+  "generation_id": "synthetic_cxr_20261113_154351_s42",
+  "timestamp": "2026-11-13T15:43:51.862281",
+  "model_id": "P-RAJIV/cxr_stable_diffusion_v1_5",
+  "model_revision": null,
+  "generation_parameters": {
+    "seed": 42,
+    "num_inference_steps": 25,
+    "guidance_scale": 7.0,
+    "height": 512,
+    "width": 512,
+    "projection": "Frontal PA",
+    "duration_seconds": 26.16
+  },
+  "conditioning": {
+    "positive_prompt": "Frontal PA chest radiograph, showing possible mild left-sided cardiomegaly, possible mild left-sided pleural effusion, possible mild left-sided pneumonia, left-sided atelectasis, possible mild left-sided pulmonary edema, possible mild left-sided lung opacity, diagnostic quality, monochrome medical imaging, high contrast lungs and ribs",
+    "negative_prompt": "color, colorful, cartoon, drawing, illustration, blur, low quality, deformed anatomy, fractured ribs, non-chest image, text watermark, bad radiograph",
+    "source_report_summary": "FINDINGS:\nThe cardiac silhouette is mild enlarged (cardiomegaly). Left-sided pleural effusion is present. Left-sided atelectatic changes are noted. Right catheter/line is noted. Air-space opacity is present, suggestive of pneumonia. No edema, or pulmonary vascular congestion is identified.\n\nIMPRESSI",
+    "extracted_positive_findings": [
+      "cardiomegaly",
+      "pleural effusion",
+      "pneumonia",
+      "atelectasis",
+      "pulmonary edema",
+      "lung opacity"
+    ],
+    "extracted_negative_findings": [],
+    "laterality": {
+      "cardiomegaly": "left-sided",
+      "pleural effusion": "left-sided",
+      "pneumonia": "left-sided",
+      "atelectasis": "left-sided",
+      "pulmonary edema": "left-sided",
+      "lung opacity": "left-sided"
+    },
+    "severity": {
+      "cardiomegaly": "mild",
+      "pleural effusion": "mild",
+      "pneumonia": "mild",
+      "atelectasis": "unspecified",
+      "pulmonary edema": "mild",
+      "lung opacity": "mild"
+    },
+    "uncertainty": {
+      "cardiomegaly": true,
+      "pleural effusion": true,
+      "pneumonia": true,
+      "atelectasis": false,
+      "pulmonary edema": true,
+      "lung opacity": true
+    }
+  },
+  "technical_validation": {
+    "width": 512,
+    "height": 512,
+    "mean_intensity": 117.52,
+    "std_intensity": 57.67,
+    "is_degenerate": false
+  },
+  "safety_disclaimer": "SYNTHETIC AI-GENERATED IMAGE \u2014 FOR RESEARCH AND EDUCATIONAL USE ONLY. NOT AN AUTHENTIC PATIENT RADIOGRAPH. NOT FOR CLINICAL DIAGNOSIS OR TREATMENT.",
+  "is_synthetic": true
+}

@@ -6,3 +6,10 @@ pillow
 streamlit
 nltk
 rouge-score
+torch
+torchvision
+transformers
+diffusers
+accelerate
+safetensors
+huggingface-hub
